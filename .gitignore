@@ -1,0 +1,14 @@
+# OS / エディタ
+.DS_Store
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+
+# Claude Code ローカル設定
+.claude/
+
+# 取得HTMLキャッシュ(再生成可能・重い。リポジトリには含めない)
+data/raw/keirin_html/
+data/raw/wt_html/

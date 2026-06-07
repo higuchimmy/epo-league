@@ -1,0 +1,84 @@
+[
+  {
+    "name": "北日本",
+    "prefectures": [
+      "宮城県",
+      "岩手県",
+      "福島県",
+      "秋田県",
+      "青森県"
+    ],
+    "player_count": 16
+  },
+  {
+    "name": "関東",
+    "prefectures": [
+      "埼玉県",
+      "新潟県",
+      "東京都",
+      "栃木県",
+      "群馬県",
+      "茨城県",
+      "長野県"
+    ],
+    "player_count": 24
+  },
+  {
+    "name": "南関東",
+    "prefectures": [
+      "千葉県",
+      "神奈川県",
+      "静岡県"
+    ],
+    "player_count": 14
+  },
+  {
+    "name": "中部",
+    "prefectures": [
+      "三重県",
+      "岐阜県",
+      "愛知県"
+    ],
+    "player_count": 6
+  },
+  {
+    "name": "近畿",
+    "prefectures": [
+      "京都府",
+      "和歌山県",
+      "大阪府",
+      "奈良県",
+      "福井県"
+    ],
+    "player_count": 13
+  },
+  {
+    "name": "中国",
+    "prefectures": [
+      "山口県",
+      "岡山県",
+      "広島県"
+    ],
+    "player_count": 10
+  },
+  {
+    "name": "四国",
+    "prefectures": [
+      "徳島県",
+      "愛媛県",
+      "香川県"
+    ],
+    "player_count": 8
+  },
+  {
+    "name": "九州",
+    "prefectures": [
+      "佐賀県",
+      "大分県",
+      "熊本県",
+      "福岡県",
+      "長崎県"
+    ],
+    "player_count": 16
+  }
+]

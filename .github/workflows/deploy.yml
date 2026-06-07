@@ -1,0 +1,55 @@
+# GitHub Pages へ静的アプリ(app/ + data/master/)をデプロイする。
+# 公開物には scripts/ や data/raw/ を含めない(余計なソース/キャッシュを出さない)。
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同時実行は1つに集約(進行中のデプロイはキャンセルしない)
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+
+      - name: Build site
+        run: |
+          set -euo pipefail
+          mkdir -p _site/data
+          # アプリ本体をサイト直下へ。index.html と data/ が同階層になる。
+          cp -R app/. _site/
+          cp -R data/master _site/data/master
+          # DATA_BASE をフラット配置(同階層下)に合わせて書き換える。
+          sed -i 's#\.\./data/master/#data/master/#' _site/js/app.js
+          # Jekyll 処理を無効化(不要な変換を避ける)。
+          touch _site/.nojekyll
+
+      - name: Configure Pages
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+        with:
+          # private↔public 切替や初回でも Pages を自動有効化し、デプロイ失敗を防ぐ
+          enablement: true
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: _site
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0

@@ -1,0 +1,94 @@
+[
+  {
+    "section_id": "159:1945",
+    "format": "4択形式",
+    "example_question": "佐々木 悠葵はどれ？",
+    "rules": [
+      "動画あり選手のみ"
+    ],
+    "notes": [
+      "選択肢は 画像のケース テキストのケース",
+      "問題箇所は テキストのみ 画像+テキスト 動画+テキスト"
+    ]
+  },
+  {
+    "section_id": "159:1949",
+    "format": "連想・関係図形式",
+    "example_question": "この選手は誰",
+    "rules": [
+      "1995/08/04",
+      "S級1班",
+      "115期",
+      "学生時代はバスケ部",
+      "師匠: [矢口啓一郎](https://keirin.jp/pc/racerprofile?snum=013760)",
+      "ホーム: 前橋",
+      "出身: 群馬",
+      "動画あり選手のみ"
+    ],
+    "notes": []
+  },
+  {
+    "section_id": "159:2525",
+    "format": "出走表形式",
+    "example_question": "順不同で並びを答えよ",
+    "rules": [],
+    "notes": []
+  },
+  {
+    "section_id": "159:2565",
+    "format": "出走表形式 2",
+    "example_question": "AI予想を予想せよ",
+    "rules": [],
+    "notes": []
+  },
+  {
+    "section_id": "159:2578",
+    "format": "出走表形式 3",
+    "example_question": "ラインの正しい並びを答えよ",
+    "rules": [],
+    "notes": [
+      "出走表はいろんなところが隠れる"
+    ]
+  },
+  {
+    "section_id": "159:2147",
+    "format": "ファイブリーグ形式",
+    "example_question": "この競輪場の正式名称は？",
+    "rules": [
+      "場は気合"
+    ],
+    "notes": []
+  },
+  {
+    "section_id": "159:2287",
+    "format": "映像形式",
+    "example_question": "7番車の選手の名前は？",
+    "rules": [
+      "動画",
+      "動画あり選手のみ / カットしない"
+    ],
+    "notes": [
+      "ファイブリーグ形式 1問1答 4択 で使う"
+    ]
+  },
+  {
+    "section_id": "159:2384",
+    "format": "組み換え形式",
+    "example_question": "正しい組み合わせはどれ？",
+    "rules": [
+      "動画あり選手のみ"
+    ],
+    "notes": []
+  },
+  {
+    "section_id": "159:2244",
+    "format": "1問1答形式(ブレインタワー・フリップ全員一致)",
+    "example_question": "この競輪場がある地区の名前は？",
+    "rules": [
+      "場は気合"
+    ],
+    "notes": [
+      "問題箇所は テキストのみ 画像 + テキスト 動画 + テキスト"
+    ]
+  }
+]

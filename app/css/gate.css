@@ -1,0 +1,66 @@
+/* 簡易パスワードゲートのスタイル */
+#gate {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: #0a0e17;
+  background: radial-gradient(120% 120% at 50% 0%, #16203a 0%, #0a0e17 60%);
+}
+#gate .gate-card {
+  width: min(360px, 100%);
+  text-align: center;
+}
+#gate .gate-mark {
+  font-family: "Oxanium", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  letter-spacing: 0.04em;
+  color: #eaf0ff;
+}
+#gate .gate-mark b {
+  color: #4cc2ff;
+}
+#gate .gate-sub {
+  margin: 8px 0 24px;
+  color: #8b97b3;
+  font-size: 14px;
+}
+#gate form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+#gate input {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #2a3656;
+  background: #111726;
+  color: #eaf0ff;
+  font-size: 16px;
+  outline: none;
+}
+#gate input:focus {
+  border-color: #4cc2ff;
+}
+#gate button {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 0;
+  background: #4cc2ff;
+  color: #06121f;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+}
+#gate button:hover {
+  filter: brightness(1.06);
+}
+#gate .gate-err {
+  min-height: 18px;
+  margin: 12px 0 0;
+  color: #ff6b7d;
+  font-size: 13px;
+}

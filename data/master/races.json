@@ -1,0 +1,5596 @@
+[
+  {
+    "venue": "函館",
+    "venue_slug": "hakodate",
+    "date": "2026-05-17",
+    "race_no": 7,
+    "event": "五稜郭杯争奪戦",
+    "race_type": "特選",
+    "distance": 2025,
+    "title": "函館競輪 五稜郭杯争奪戦（2026年5月17日)7レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hakodate/raceresult/2026051411/4/7",
+    "video": null,
+    "featured": [
+      "014252"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "013850",
+        "name": "山賀雅仁",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015336",
+        "name": "小畑勝広",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014252",
+        "name": "三谷将太",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "013726",
+        "name": "川村晃司",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014141",
+        "name": "中川貴徳",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "012541",
+        "name": "室井健一",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015183",
+        "name": "小森貴大",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "013070",
+        "name": "高木和仁",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014995",
+        "name": "渡邉雄太",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "熊本",
+    "venue_slug": "kumamoto",
+    "date": "2026-02-22",
+    "race_no": 11,
+    "event": "読売新聞社杯全日本選抜競輪",
+    "race_type": "準決勝",
+    "distance": 2025,
+    "title": "熊本競輪 読売新聞社杯全日本選抜競輪（2026年2月22日)11レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/kumamoto/raceresult/2026022087/3/11",
+    "video": null,
+    "featured": [
+      "014252",
+      "015413"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "013516",
+        "name": "荒井崇博",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015035",
+        "name": "阿部拓真",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015413",
+        "name": "寺崎浩平",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "013162",
+        "name": "佐藤慎太郎",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015298",
+        "name": "嘉永泰斗",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015125",
+        "name": "佐々木豪",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015034",
+        "name": "新山響平",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014252",
+        "name": "三谷将太",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015009",
+        "name": "清水裕友",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "奈良",
+    "venue_slug": "nara",
+    "date": "2026-02-06",
+    "race_no": 9,
+    "event": "春日賞争覇戦",
+    "race_type": "二予選",
+    "distance": 2015,
+    "title": "奈良競輪 春日賞争覇戦（2026年2月6日)9レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/nara/raceresult/2026020553/2/9",
+    "video": null,
+    "featured": [
+      "014252"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014252",
+        "name": "三谷将太",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015373",
+        "name": "晝田宗一郎",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014018",
+        "name": "内藤秀久",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015169",
+        "name": "野口裕史",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014246",
+        "name": "森川大輔",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014051",
+        "name": "早坂秀悟",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015369",
+        "name": "谷和也",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014232",
+        "name": "柴田洋輔",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "012987",
+        "name": "堤洋",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "防府",
+    "venue_slug": "hofu",
+    "date": "2026-03-22",
+    "race_no": 3,
+    "event": "ウィナーズカップ",
+    "race_type": "選抜",
+    "distance": 2015,
+    "title": "防府競輪 ウィナーズカップ（2026年3月22日)3レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hofu/raceresult/2026031963/4/3",
+    "video": null,
+    "featured": [
+      "014873"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014182",
+        "name": "大川龍二",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015343",
+        "name": "佐々木悠葵",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "013850",
+        "name": "山賀雅仁",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014485",
+        "name": "田中勇二",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014112",
+        "name": "小川勇介",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015329",
+        "name": "板垣昴",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014860",
+        "name": "吉澤純平",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015807",
+        "name": "塩島嵩一朗",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014873",
+        "name": "三谷竜生",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "奈良",
+    "venue_slug": "nara",
+    "date": "2026-02-06",
+    "race_no": 10,
+    "event": "春日賞争覇戦",
+    "race_type": "二予選",
+    "distance": 2015,
+    "title": "奈良競輪 春日賞争覇戦（2026年2月6日)10レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/nara/raceresult/2026020553/2/10",
+    "video": null,
+    "featured": [
+      "014873"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015822",
+        "name": "谷内健太",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014640",
+        "name": "新山将史",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015654",
+        "name": "梅崎隆介",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015375",
+        "name": "村上竜馬",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014886",
+        "name": "山本伸一",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015643",
+        "name": "小川将二郎",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015297",
+        "name": "上野優太",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015322",
+        "name": "磯島成介",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014873",
+        "name": "三谷竜生",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-01",
+    "race_no": 10,
+    "event": "日本選手権競輪",
+    "race_type": "一予選",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月1日)10レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/1/10",
+    "video": "https://vod.winticket.live/race/15prMAPtJycmdJyo6qVuf5/index.m3u8",
+    "featured": [
+      "015596",
+      "013162"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014210",
+        "name": "和田圭",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015199",
+        "name": "田尾駿介",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015337",
+        "name": "佐藤礼文",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015479",
+        "name": "松岡辰泰",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015596",
+        "name": "中野慎詞",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015289",
+        "name": "橋本瑠偉",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015475",
+        "name": "伊藤旭",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014846",
+        "name": "久米康平",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "013162",
+        "name": "佐藤慎太郎",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "熊本",
+    "venue_slug": "kumamoto",
+    "date": "2026-02-22",
+    "race_no": 8,
+    "event": "読売新聞社杯全日本選抜競輪",
+    "race_type": "特選",
+    "distance": 2025,
+    "title": "熊本競輪 読売新聞社杯全日本選抜競輪（2026年2月22日)8レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/kumamoto/raceresult/2026022087/3/8",
+    "video": null,
+    "featured": [
+      "015596"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014038",
+        "name": "橋本強",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014564",
+        "name": "塚本大樹",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015596",
+        "name": "中野慎詞",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015436",
+        "name": "青野将大",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "013920",
+        "name": "山崎芳仁",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015199",
+        "name": "田尾駿介",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014002",
+        "name": "渡部幸訓",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015475",
+        "name": "伊藤旭",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "013851",
+        "name": "和田健太郎",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-03",
+    "race_no": 9,
+    "event": "日本選手権競輪",
+    "race_type": "二予選",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月3日)9レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/3/9",
+    "video": "https://vod.winticket.live/race/tAZMrzSWwVSuAAt52wXNcF/index.m3u8",
+    "featured": [
+      "015343"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015298",
+        "name": "嘉永泰斗",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015034",
+        "name": "新山響平",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015444",
+        "name": "渡邉雅也",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014140",
+        "name": "神山拓弥",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "013894",
+        "name": "園田匠",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015443",
+        "name": "道場晃規",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014129",
+        "name": "菅田壱道",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014322",
+        "name": "片岡迪之",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015343",
+        "name": "佐々木悠葵",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-01",
+    "race_no": 9,
+    "event": "日本選手権競輪",
+    "race_type": "一予選",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月1日)9レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/1/9",
+    "video": "https://vod.winticket.live/race/hZdruXtdpGVQ42YYnZHPeY/index.m3u8",
+    "featured": [
+      "015343"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "013815",
+        "name": "井上昌己",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015343",
+        "name": "佐々木悠葵",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014501",
+        "name": "守澤太志",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015417",
+        "name": "櫻井祐太郎",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015090",
+        "name": "高橋築",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014138",
+        "name": "山下渡",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015474",
+        "name": "阿部将大",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015328",
+        "name": "星野洋輝",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "013894",
+        "name": "園田匠",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "武雄",
+    "venue_slug": "takeo",
+    "date": "2026-04-18",
+    "race_no": 7,
+    "event": "武雄市制２０周年大楠賞争奪戦",
+    "race_type": "一予選",
+    "distance": 2025,
+    "title": "武雄競輪 武雄市制２０周年大楠賞争奪戦（2026年4月18日)7レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/takeo/raceresult/2026041884/1/7",
+    "video": null,
+    "featured": [
+      "015343"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015343",
+        "name": "佐々木悠葵",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015476",
+        "name": "緒方将樹",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014500",
+        "name": "竹村勇祐",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014108",
+        "name": "山中貴雄",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014860",
+        "name": "吉澤純平",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015627",
+        "name": "南儀拓海",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014571",
+        "name": "根本哲吏",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "013242",
+        "name": "尾崎剛",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "013808",
+        "name": "坂本健太郎",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-05",
+    "race_no": 6,
+    "event": "日本選手権競輪",
+    "race_type": "特選二",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月5日)6レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/5/6",
+    "video": "https://vod.winticket.live/race/2PZkayCPzeDdzTg5213Txz/index.m3u8",
+    "featured": [
+      "015439"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015203",
+        "name": "松本貴治",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015439",
+        "name": "佐々木眞也",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015090",
+        "name": "高橋築",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015661",
+        "name": "東矢圭吾",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "013355",
+        "name": "桑原大志",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015443",
+        "name": "道場晃規",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "013894",
+        "name": "園田匠",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014322",
+        "name": "片岡迪之",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014659",
+        "name": "武藤龍生",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-02",
+    "race_no": 8,
+    "event": "日本選手権競輪",
+    "race_type": "一予選",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月2日)8レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/2/8",
+    "video": "https://vod.winticket.live/race/kNFLYqGNht5RyGHpByjWLw/index.m3u8",
+    "featured": [
+      "015439"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014462",
+        "name": "小原太樹",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015125",
+        "name": "佐々木豪",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014940",
+        "name": "谷口遼平",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014537",
+        "name": "西村光太",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015439",
+        "name": "佐々木眞也",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014105",
+        "name": "阿竹智史",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015436",
+        "name": "青野将大",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014177",
+        "name": "小堺浩二",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014554",
+        "name": "山形一気",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "伊東",
+    "venue_slug": "ito",
+    "date": "2026-04-04",
+    "race_no": 11,
+    "event": "椿賞争奪戦",
+    "race_type": "準決勝",
+    "distance": 2025,
+    "title": "伊東競輪 椿賞争奪戦（2026年4月4日)11レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/ito/raceresult/2026040237/3/11",
+    "video": null,
+    "featured": [
+      "013162"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015464",
+        "name": "町田太我",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015039",
+        "name": "吉田拓矢",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "013673",
+        "name": "大槻寛徳",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015063",
+        "name": "小川真太郎",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014140",
+        "name": "神山拓弥",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "013693",
+        "name": "藤原憲征",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "013162",
+        "name": "佐藤慎太郎",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015130",
+        "name": "瀬戸栄作",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015096",
+        "name": "大石剣士",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "取手",
+    "venue_slug": "toride",
+    "date": "2026-03-14",
+    "race_no": 11,
+    "event": "ワールドサイクリスト支援競輪",
+    "race_type": "準決勝",
+    "distance": 2025,
+    "title": "取手競輪 ワールドサイクリスト支援競輪（2026年3月14日)11レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/toride/raceresult/2026031223/3/11",
+    "video": null,
+    "featured": [
+      "013162"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015440",
+        "name": "長田龍拳",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015090",
+        "name": "高橋築",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "013791",
+        "name": "村上博幸",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015629",
+        "name": "岸田剛",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014485",
+        "name": "田中勇二",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015426",
+        "name": "太田龍希",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "013162",
+        "name": "佐藤慎太郎",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015196",
+        "name": "小川丈太",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "012339",
+        "name": "内藤宣彦",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "青森",
+    "venue_slug": "aomori",
+    "date": "2026-05-20",
+    "race_no": 8,
+    "event": "オッズパーク杯ミッドナイトＧ３",
+    "race_type": "準決勝",
+    "distance": 2025,
+    "title": "青森競輪 オッズパーク杯ミッドナイトＧ３（2026年5月20日)8レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/aomori/raceresult/2026051912/2/8",
+    "video": null,
+    "featured": [
+      "014113"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014113",
+        "name": "北津留翼",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014190",
+        "name": "木村隆弘",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015517",
+        "name": "橋本壮史",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "013495",
+        "name": "友定祐己",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014427",
+        "name": "佐藤和也",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "013685",
+        "name": "岡田征陽",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015896",
+        "name": "丸山留依",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "豊橋",
+    "venue_slug": "toyohashi",
+    "date": "2026-03-31",
+    "race_no": 8,
+    "event": "開設７６周年記念ちぎり賞争奪戦",
+    "race_type": "特選",
+    "distance": 2025,
+    "title": "豊橋競輪 開設７６周年記念ちぎり賞争奪戦（2026年3月31日)8レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/toyohashi/raceresult/2026032845/4/8",
+    "video": null,
+    "featured": [
+      "014113"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014113",
+        "name": "北津留翼",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014944",
+        "name": "栗山俊介",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015347",
+        "name": "武田亮",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014633",
+        "name": "田中陽平",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015715",
+        "name": "平野想真",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014399",
+        "name": "佐川翔吾",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "013923",
+        "name": "武田豊樹",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "013990",
+        "name": "荻原尚人",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014041",
+        "name": "田中誠",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "豊橋",
+    "venue_slug": "toyohashi",
+    "date": "2026-03-29",
+    "race_no": 8,
+    "event": "開設７６周年記念ちぎり賞争奪戦",
+    "race_type": "二予選",
+    "distance": 2025,
+    "title": "豊橋競輪 開設７６周年記念ちぎり賞争奪戦（2026年3月29日)8レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/toyohashi/raceresult/2026032845/2/8",
+    "video": null,
+    "featured": [
+      "014113"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014122",
+        "name": "松岡貴久",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014940",
+        "name": "谷口遼平",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014744",
+        "name": "和田真久留",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015441",
+        "name": "鈴木陸来",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015347",
+        "name": "武田亮",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "013862",
+        "name": "鈴木伸之",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015179",
+        "name": "皿屋豊",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015609",
+        "name": "安倍大成",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014113",
+        "name": "北津留翼",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "松山",
+    "venue_slug": "matsuyama",
+    "date": "2026-03-05",
+    "race_no": 12,
+    "event": "開設７６周年記念金亀杯争覇戦",
+    "race_type": "初特選",
+    "distance": 2025,
+    "title": "松山競輪 開設７６周年記念金亀杯争覇戦（2026年3月5日)12レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/matsuyama/raceresult/2026030575/1/12",
+    "video": null,
+    "featured": [
+      "013962"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015413",
+        "name": "寺崎浩平",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015039",
+        "name": "吉田拓矢",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015553",
+        "name": "犬伏湧也",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "013917",
+        "name": "成田和也",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015465",
+        "name": "石原颯",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "013851",
+        "name": "和田健太郎",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "013962",
+        "name": "南修二",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015248",
+        "name": "森田優弥",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014054",
+        "name": "新田祐大",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "熊本",
+    "venue_slug": "kumamoto",
+    "date": "2026-02-23",
+    "race_no": 10,
+    "event": "読売新聞社杯全日本選抜競輪",
+    "race_type": "特秀",
+    "distance": 2025,
+    "title": "熊本競輪 読売新聞社杯全日本選抜競輪（2026年2月23日)10レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/kumamoto/raceresult/2026022087/4/10",
+    "video": null,
+    "featured": [
+      "013962"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015035",
+        "name": "阿部拓真",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014417",
+        "name": "山田庸平",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "013962",
+        "name": "南修二",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014097",
+        "name": "稲川翔",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "013162",
+        "name": "佐藤慎太郎",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015475",
+        "name": "伊藤旭",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015596",
+        "name": "中野慎詞",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014054",
+        "name": "新田祐大",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014534",
+        "name": "深谷知広",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-05",
+    "race_no": 10,
+    "event": "日本選手権競輪",
+    "race_type": "準決勝",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月5日)10レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/5/10",
+    "video": "https://vod.winticket.live/race/ead3dAPJJUirEzy36pmNkn/index.m3u8",
+    "featured": [
+      "015061"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015242",
+        "name": "眞杉匠",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015597",
+        "name": "太田海也",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015451",
+        "name": "山口拳矢",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "013880",
+        "name": "岩津裕介",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014089",
+        "name": "浅井康太",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015061",
+        "name": "取鳥雄吾",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014794",
+        "name": "阿部力也",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014417",
+        "name": "山田庸平",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015039",
+        "name": "吉田拓矢",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "西武園",
+    "venue_slug": "seibuen",
+    "date": "2026-03-14",
+    "race_no": 11,
+    "event": "ブルーウイングナイトレース",
+    "race_type": "準決勝",
+    "distance": 2025,
+    "title": "西武園競輪 ブルーウイングナイトレース（2026年3月14日)11レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/seibuen/raceresult/2026031226/3/11",
+    "video": null,
+    "featured": [
+      "015061",
+      "013140"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014501",
+        "name": "守澤太志",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015061",
+        "name": "取鳥雄吾",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015362",
+        "name": "脇本勇希",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015246",
+        "name": "黒沢征治",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014886",
+        "name": "山本伸一",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015116",
+        "name": "池野健太",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "013140",
+        "name": "小倉竜二",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014151",
+        "name": "宿口潤平",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014052",
+        "name": "飯野祐太",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-06",
+    "race_no": 11,
+    "event": "日本選手権競輪",
+    "race_type": "決勝",
+    "distance": 2425,
+    "title": "平塚競輪 日本選手権競輪（2026年5月6日)11レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/6/11",
+    "video": "https://vod.winticket.live/race/uC4ufrqAkE1XWi9tXbUzSM/index.m3u8",
+    "featured": [
+      "014838",
+      "014129"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014681",
+        "name": "松浦悠士",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014838",
+        "name": "古性優作",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015242",
+        "name": "眞杉匠",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014002",
+        "name": "渡部幸訓",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015039",
+        "name": "吉田拓矢",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015061",
+        "name": "取鳥雄吾",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "013516",
+        "name": "荒井崇博",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015343",
+        "name": "佐々木悠葵",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014129",
+        "name": "菅田壱道",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-05",
+    "race_no": 9,
+    "event": "日本選手権競輪",
+    "race_type": "準決勝",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月5日)9レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/5/9",
+    "video": "https://vod.winticket.live/race/aH44bMtjnx3tseDfDnfejV/index.m3u8",
+    "featured": [
+      "014838"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015413",
+        "name": "寺崎浩平",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014744",
+        "name": "和田真久留",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015009",
+        "name": "清水裕友",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014002",
+        "name": "渡部幸訓",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015261",
+        "name": "松井宏佑",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015343",
+        "name": "佐々木悠葵",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014838",
+        "name": "古性優作",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015465",
+        "name": "石原颯",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014317",
+        "name": "山田久徳",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-04",
+    "race_no": 11,
+    "event": "日本選手権競輪",
+    "race_type": "ＧＤＲ",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月4日)11レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/4/11",
+    "video": "https://vod.winticket.live/race/cUbaDnjYxgRCG3JffuCsDg/index.m3u8",
+    "featured": [
+      "014838"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014741",
+        "name": "郡司浩平",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015039",
+        "name": "吉田拓矢",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014838",
+        "name": "古性優作",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014534",
+        "name": "深谷知広",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "013516",
+        "name": "荒井崇博",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014744",
+        "name": "和田真久留",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015451",
+        "name": "山口拳矢",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014794",
+        "name": "阿部力也",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015009",
+        "name": "清水裕友",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-02",
+    "race_no": 11,
+    "event": "日本選手権競輪",
+    "race_type": "特選予",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月2日)11レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/2/11",
+    "video": "https://vod.winticket.live/race/9NDxBPh3PYUvdAR6Fvo1dT/index.m3u8",
+    "featured": [
+      "015039"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015039",
+        "name": "吉田拓矢",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015413",
+        "name": "寺崎浩平",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015597",
+        "name": "太田海也",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014252",
+        "name": "三谷将太",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014129",
+        "name": "菅田壱道",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014317",
+        "name": "山田久徳",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015009",
+        "name": "清水裕友",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014794",
+        "name": "阿部力也",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015242",
+        "name": "眞杉匠",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "西武園",
+    "venue_slug": "seibuen",
+    "date": "2026-04-12",
+    "race_no": 12,
+    "event": "第１回平原康多カップ",
+    "race_type": "決勝",
+    "distance": 2025,
+    "title": "西武園競輪 第１回平原康多カップ（2026年4月12日)12レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/seibuen/raceresult/2026040926/4/12",
+    "video": null,
+    "featured": [
+      "015039",
+      "015242"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014152",
+        "name": "宿口陽一",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014838",
+        "name": "古性優作",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015039",
+        "name": "吉田拓矢",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014089",
+        "name": "浅井康太",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014861",
+        "name": "金子幸央",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015246",
+        "name": "黒沢征治",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015125",
+        "name": "佐々木豪",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015179",
+        "name": "皿屋豊",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015242",
+        "name": "眞杉匠",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "豊橋",
+    "venue_slug": "toyohashi",
+    "date": "2026-03-28",
+    "race_no": 11,
+    "event": "開設７６周年記念ちぎり賞争奪戦",
+    "race_type": "一予選",
+    "distance": 2025,
+    "title": "豊橋競輪 開設７６周年記念ちぎり賞争奪戦（2026年3月28日)11レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/toyohashi/raceresult/2026032845/1/11",
+    "video": null,
+    "featured": [
+      "014744",
+      "015261"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014744",
+        "name": "和田真久留",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014409",
+        "name": "山本奨",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014944",
+        "name": "栗山俊介",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014147",
+        "name": "柿沼信也",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014253",
+        "name": "伊藤信",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015202",
+        "name": "今野大輔",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "013829",
+        "name": "青森伸也",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015702",
+        "name": "依田翔大",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015261",
+        "name": "松井宏佑",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "函館",
+    "venue_slug": "hakodate",
+    "date": "2026-05-15",
+    "race_no": 12,
+    "event": "五稜郭杯争奪戦",
+    "race_type": "二予選",
+    "distance": 2025,
+    "title": "函館競輪 五稜郭杯争奪戦（2026年5月15日)12レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hakodate/raceresult/2026051411/2/12",
+    "video": null,
+    "featured": [
+      "015298"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014861",
+        "name": "金子幸央",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015298",
+        "name": "嘉永泰斗",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015051",
+        "name": "簗田一輝",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "013240",
+        "name": "小林大介",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "013850",
+        "name": "山賀雅仁",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "013070",
+        "name": "高木和仁",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015038",
+        "name": "山岸佳太",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015619",
+        "name": "日高裕太",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "013815",
+        "name": "井上昌己",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-06",
+    "race_no": 7,
+    "event": "日本選手権競輪",
+    "race_type": "特選一",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月6日)7レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/6/7",
+    "video": "https://vod.winticket.live/race/dyTxkBme6htN59Z3uiKb9z/index.m3u8",
+    "featured": [
+      "015298"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014935",
+        "name": "嶋津拓弥",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015298",
+        "name": "嘉永泰斗",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015518",
+        "name": "吉田有希",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014564",
+        "name": "塚本大樹",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015094",
+        "name": "佐々木龍",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014505",
+        "name": "雨谷一樹",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015537",
+        "name": "志田龍星",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "013249",
+        "name": "諸橋愛",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "013140",
+        "name": "小倉竜二",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-06",
+    "race_no": 10,
+    "event": "日本選手権競輪",
+    "race_type": "順位決",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月6日)10レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/6/10",
+    "video": "https://vod.winticket.live/race/iL7U7Vn93BuKZaBkCy9GUi/index.m3u8",
+    "featured": [
+      "015597"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014534",
+        "name": "深谷知広",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015413",
+        "name": "寺崎浩平",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015035",
+        "name": "阿部拓真",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014744",
+        "name": "和田真久留",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014794",
+        "name": "阿部力也",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015464",
+        "name": "町田太我",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014317",
+        "name": "山田久徳",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014417",
+        "name": "山田庸平",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015597",
+        "name": "太田海也",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-04",
+    "race_no": 9,
+    "event": "日本選手権競輪",
+    "race_type": "二予選",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月4日)9レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/4/9",
+    "video": "https://vod.winticket.live/race/fQSMGppoh1Sb4qX1uNk8af/index.m3u8",
+    "featured": [
+      "015597"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014089",
+        "name": "浅井康太",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014681",
+        "name": "松浦悠士",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015341",
+        "name": "坂井洋",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015537",
+        "name": "志田龍星",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014659",
+        "name": "武藤龍生",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015480",
+        "name": "松本秀之介",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015597",
+        "name": "太田海也",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "013355",
+        "name": "桑原大志",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015037",
+        "name": "鈴木竜士",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "熊本",
+    "venue_slug": "kumamoto",
+    "date": "2026-02-21",
+    "race_no": 7,
+    "event": "読売新聞社杯全日本選抜競輪",
+    "race_type": "二予選",
+    "distance": 2025,
+    "title": "熊本競輪 読売新聞社杯全日本選抜競輪（2026年2月21日)7レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/kumamoto/raceresult/2026022087/2/7",
+    "video": null,
+    "featured": [
+      "015597"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014564",
+        "name": "塚本大樹",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014534",
+        "name": "深谷知広",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015037",
+        "name": "鈴木竜士",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014054",
+        "name": "新田祐大",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015597",
+        "name": "太田海也",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014505",
+        "name": "雨谷一樹",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014501",
+        "name": "守澤太志",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "013894",
+        "name": "園田匠",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014524",
+        "name": "松谷秀幸",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "武雄",
+    "venue_slug": "takeo",
+    "date": "2026-04-21",
+    "race_no": 8,
+    "event": "武雄市制２０周年大楠賞争奪戦",
+    "race_type": "特選",
+    "distance": 2025,
+    "title": "武雄競輪 武雄市制２０周年大楠賞争奪戦（2026年4月21日)8レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/takeo/raceresult/2026041884/4/8",
+    "video": null,
+    "featured": [
+      "013140",
+      "014484"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015661",
+        "name": "東矢圭吾",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014837",
+        "name": "神田紘輔",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014553",
+        "name": "久米良",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014138",
+        "name": "山下渡",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "013140",
+        "name": "小倉竜二",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "013070",
+        "name": "高木和仁",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014505",
+        "name": "雨谷一樹",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014757",
+        "name": "藤井昭吾",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014484",
+        "name": "河端朋之",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "函館",
+    "venue_slug": "hakodate",
+    "date": "2026-05-17",
+    "race_no": 9,
+    "event": "五稜郭杯争奪戦",
+    "race_type": "特選",
+    "distance": 2025,
+    "title": "函館競輪 五稜郭杯争奪戦（2026年5月17日)9レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hakodate/raceresult/2026051411/4/9",
+    "video": null,
+    "featured": [
+      "015451"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015451",
+        "name": "山口拳矢",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014861",
+        "name": "金子幸央",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015199",
+        "name": "田尾駿介",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015347",
+        "name": "武田亮",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014421",
+        "name": "松川高大",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015450",
+        "name": "長谷部龍一",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015649",
+        "name": "後藤大輝",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014883",
+        "name": "才迫開",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014700",
+        "name": "川口公太朗",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-03",
+    "race_no": 8,
+    "event": "日本選手権競輪",
+    "race_type": "二予選",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月3日)8レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/3/8",
+    "video": "https://vod.winticket.live/race/ruSwAjAUN5EEZC1mZTsHcG/index.m3u8",
+    "featured": [
+      "015213"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014377",
+        "name": "岩本俊介",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015213",
+        "name": "山崎賢人",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014054",
+        "name": "新田祐大",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014564",
+        "name": "塚本大樹",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014524",
+        "name": "松谷秀幸",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015086",
+        "name": "酒井雄多",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014417",
+        "name": "山田庸平",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "013532",
+        "name": "佐々木雄一",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015439",
+        "name": "佐々木眞也",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-01",
+    "race_no": 1,
+    "event": "日本選手権競輪",
+    "race_type": "一予選",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月1日)1レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/1/1",
+    "video": "https://vod.winticket.live/race/5D96E7uR4Jm88Y1Unp7z7g/index.m3u8",
+    "featured": [
+      "015213"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015213",
+        "name": "山崎賢人",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014553",
+        "name": "久米良",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014417",
+        "name": "山田庸平",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015517",
+        "name": "橋本壮史",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014318",
+        "name": "椎木尾拓哉",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015122",
+        "name": "島川将貴",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014860",
+        "name": "吉澤純平",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015183",
+        "name": "小森貴大",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "013821",
+        "name": "中村圭志",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "宇都宮",
+    "venue_slug": "utsunomiya",
+    "date": "2026-06-02",
+    "race_no": 12,
+    "event": "レジェンド神山雄一郎カップ",
+    "race_type": "決勝",
+    "distance": 2025,
+    "title": "宇都宮競輪 レジェンド神山雄一郎カップ（2026年6月2日)12レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/utsunomiya/raceresult/2026053024/4/12",
+    "video": null,
+    "featured": [],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015242",
+        "name": "眞杉匠",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "013962",
+        "name": "南修二",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014002",
+        "name": "渡部幸訓",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014140",
+        "name": "神山拓弥",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015413",
+        "name": "寺崎浩平",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014873",
+        "name": "三谷竜生",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014935",
+        "name": "嶋津拓弥",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015731",
+        "name": "西田優大",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015039",
+        "name": "吉田拓矢",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "武雄",
+    "venue_slug": "takeo",
+    "date": "2026-04-18",
+    "race_no": 12,
+    "event": "武雄市制２０周年大楠賞争奪戦",
+    "race_type": "初特選",
+    "distance": 2025,
+    "title": "武雄競輪 武雄市制２０周年大楠賞争奪戦（2026年4月18日)12レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/takeo/raceresult/2026041884/1/12",
+    "video": null,
+    "featured": [
+      "014417"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015242",
+        "name": "眞杉匠",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014047",
+        "name": "山田英明",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "013962",
+        "name": "南修二",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014524",
+        "name": "松谷秀幸",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015213",
+        "name": "山崎賢人",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014089",
+        "name": "浅井康太",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015298",
+        "name": "嘉永泰斗",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015125",
+        "name": "佐々木豪",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014417",
+        "name": "山田庸平",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "防府",
+    "venue_slug": "hofu",
+    "date": "2026-03-22",
+    "race_no": 6,
+    "event": "ウィナーズカップ",
+    "race_type": "特選",
+    "distance": 2015,
+    "title": "防府競輪 ウィナーズカップ（2026年3月22日)6レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hofu/raceresult/2026031963/4/6",
+    "video": null,
+    "featured": [
+      "014417"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014054",
+        "name": "新田祐大",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014417",
+        "name": "山田庸平",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015261",
+        "name": "松井宏佑",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014103",
+        "name": "村田雅一",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "013917",
+        "name": "成田和也",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014682",
+        "name": "原田研太朗",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014524",
+        "name": "松谷秀幸",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014996",
+        "name": "岡本総",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "013962",
+        "name": "南修二",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "熊本",
+    "venue_slug": "kumamoto",
+    "date": "2026-02-23",
+    "race_no": 11,
+    "event": "読売新聞社杯全日本選抜競輪",
+    "race_type": "特秀",
+    "distance": 2025,
+    "title": "熊本競輪 読売新聞社杯全日本選抜競輪（2026年2月23日)11レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/kumamoto/raceresult/2026022087/4/11",
+    "video": null,
+    "featured": [
+      "014129"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015203",
+        "name": "松本貴治",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015039",
+        "name": "吉田拓矢",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015034",
+        "name": "新山響平",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014002",
+        "name": "渡部幸訓",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015597",
+        "name": "太田海也",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015341",
+        "name": "坂井洋",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014129",
+        "name": "菅田壱道",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014794",
+        "name": "阿部力也",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015242",
+        "name": "眞杉匠",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2025-12-30",
+    "race_no": 10,
+    "event": "ＫＥＩＲＩＮグランプリ２０２５",
+    "race_type": "決勝",
+    "distance": 2025,
+    "title": "平塚競輪 ＫＥＩＲＩＮグランプリ２０２５（2025年12月30日)10レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2025122835/3/10",
+    "video": "https://vod.winticket.live/race/quFgxGeUgRdy88dNHGxwRj/index.m3u8",
+    "featured": [
+      "015451"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015261",
+        "name": "松井宏佑",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015248",
+        "name": "森田優弥",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015451",
+        "name": "山口拳矢",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014112",
+        "name": "小川勇介",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015596",
+        "name": "中野慎詞",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015649",
+        "name": "後藤大輝",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014860",
+        "name": "吉澤純平",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014505",
+        "name": "雨谷一樹",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014501",
+        "name": "守澤太志",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-06",
+    "race_no": 8,
+    "event": "日本選手権競輪",
+    "race_type": "優秀",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月6日)8レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/6/8",
+    "video": "https://vod.winticket.live/race/tPewRJY4Qcpb4jqPiwd5u5/index.m3u8",
+    "featured": [
+      "014377"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015779",
+        "name": "中石湊",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015009",
+        "name": "清水裕友",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015261",
+        "name": "松井宏佑",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014140",
+        "name": "神山拓弥",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014252",
+        "name": "三谷将太",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014356",
+        "name": "佐藤一伸",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014377",
+        "name": "岩本俊介",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014182",
+        "name": "大川龍二",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014524",
+        "name": "松谷秀幸",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "西武園",
+    "venue_slug": "seibuen",
+    "date": "2026-03-14",
+    "race_no": 10,
+    "event": "ブルーウイングナイトレース",
+    "race_type": "準決勝",
+    "distance": 2025,
+    "title": "西武園競輪 ブルーウイングナイトレース（2026年3月14日)10レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/seibuen/raceresult/2026031226/3/10",
+    "video": null,
+    "featured": [
+      "014377"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "012596",
+        "name": "志智俊夫",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "013744",
+        "name": "菅原晃",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014377",
+        "name": "岩本俊介",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015096",
+        "name": "大石剣士",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015363",
+        "name": "田中大我",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "013783",
+        "name": "上田裕和",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "013982",
+        "name": "五日市誠",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "013804",
+        "name": "湊聖二",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015474",
+        "name": "阿部将大",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "西武園",
+    "venue_slug": "seibuen",
+    "date": "2026-03-12",
+    "race_no": 12,
+    "event": "ブルーウイングナイトレース",
+    "race_type": "初特選",
+    "distance": 2025,
+    "title": "西武園競輪 ブルーウイングナイトレース（2026年3月12日)12レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/seibuen/raceresult/2026031226/1/12",
+    "video": null,
+    "featured": [
+      "014377"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "013140",
+        "name": "小倉竜二",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014659",
+        "name": "武藤龍生",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014377",
+        "name": "岩本俊介",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015474",
+        "name": "阿部将大",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "013920",
+        "name": "山崎芳仁",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015516",
+        "name": "木村皆斗",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014501",
+        "name": "守澤太志",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014507",
+        "name": "長島大介",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014935",
+        "name": "嶋津拓弥",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-04",
+    "race_no": 4,
+    "event": "日本選手権競輪",
+    "race_type": "一般二",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月4日)4レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/4/4",
+    "video": "https://vod.winticket.live/race/rji4zamh7tqKrjXrWuZH8n/index.m3u8",
+    "featured": [
+      "015649"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014421",
+        "name": "松川高大",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015183",
+        "name": "小森貴大",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014537",
+        "name": "西村光太",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015349",
+        "name": "寺沼拓摩",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "013730",
+        "name": "東口善朋",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015049",
+        "name": "菅原大也",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015649",
+        "name": "後藤大輝",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "013765",
+        "name": "海老根恵太",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "013815",
+        "name": "井上昌己",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "豊橋",
+    "venue_slug": "toyohashi",
+    "date": "2026-03-28",
+    "race_no": 9,
+    "event": "開設７６周年記念ちぎり賞争奪戦",
+    "race_type": "一予選",
+    "distance": 2025,
+    "title": "豊橋競輪 開設７６周年記念ちぎり賞争奪戦（2026年3月28日)9レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/toyohashi/raceresult/2026032845/1/9",
+    "video": null,
+    "featured": [
+      "015649"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014053",
+        "name": "鈴木謙太郎",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015649",
+        "name": "後藤大輝",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014427",
+        "name": "佐藤和也",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "013990",
+        "name": "荻原尚人",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015609",
+        "name": "安倍大成",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "012234",
+        "name": "室井竜二",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015598",
+        "name": "大川剛",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015092",
+        "name": "小林令",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014122",
+        "name": "松岡貴久",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-05",
+    "race_no": 5,
+    "event": "日本選手権競輪",
+    "race_type": "特選二",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月5日)5レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/5/5",
+    "video": "https://vod.winticket.live/race/a23skmDFUVhfjhwtQo3QLT/index.m3u8",
+    "featured": [
+      "015537"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014252",
+        "name": "三谷将太",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "013904",
+        "name": "佐藤友和",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015436",
+        "name": "青野将大",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014564",
+        "name": "塚本大樹",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015537",
+        "name": "志田龍星",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014505",
+        "name": "雨谷一樹",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014462",
+        "name": "小原太樹",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014052",
+        "name": "飯野祐太",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014809",
+        "name": "恩田淳平",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "豊橋",
+    "venue_slug": "toyohashi",
+    "date": "2026-03-28",
+    "race_no": 10,
+    "event": "開設７６周年記念ちぎり賞争奪戦",
+    "race_type": "一予選",
+    "distance": 2025,
+    "title": "豊橋競輪 開設７６周年記念ちぎり賞争奪戦（2026年3月28日)10レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/toyohashi/raceresult/2026032845/1/10",
+    "video": null,
+    "featured": [
+      "015537"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015179",
+        "name": "皿屋豊",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015655",
+        "name": "一丸尚伍",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014448",
+        "name": "相川永伍",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015605",
+        "name": "加藤将武",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015537",
+        "name": "志田龍星",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014135",
+        "name": "金澤幸司",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014633",
+        "name": "田中陽平",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "013810",
+        "name": "良永浩一",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "013862",
+        "name": "鈴木伸之",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "函館",
+    "venue_slug": "hakodate",
+    "date": "2026-05-17",
+    "race_no": 11,
+    "event": "五稜郭杯争奪戦",
+    "race_type": "特秀",
+    "distance": 2025,
+    "title": "函館競輪 五稜郭杯争奪戦（2026年5月17日)11レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hakodate/raceresult/2026051411/4/11",
+    "video": null,
+    "featured": [
+      "013917"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015826",
+        "name": "久田朔",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "013917",
+        "name": "成田和也",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "013880",
+        "name": "岩津裕介",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015170",
+        "name": "川越勇星",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014497",
+        "name": "川津悠揮",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014394",
+        "name": "不破将登",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015412",
+        "name": "菊池岳仁",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015466",
+        "name": "久田裕也",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014744",
+        "name": "和田真久留",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "函館",
+    "venue_slug": "hakodate",
+    "date": "2026-05-15",
+    "race_no": 11,
+    "event": "五稜郭杯争奪戦",
+    "race_type": "二予選",
+    "distance": 2025,
+    "title": "函館競輪 五稜郭杯争奪戦（2026年5月15日)11レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hakodate/raceresult/2026051411/2/11",
+    "video": null,
+    "featured": [
+      "015034"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "013917",
+        "name": "成田和也",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014886",
+        "name": "山本伸一",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014659",
+        "name": "武藤龍生",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015837",
+        "name": "小川三士郎",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015034",
+        "name": "新山響平",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015450",
+        "name": "長谷部龍一",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015199",
+        "name": "田尾駿介",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015347",
+        "name": "武田亮",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014497",
+        "name": "川津悠揮",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-05",
+    "race_no": 8,
+    "event": "日本選手権競輪",
+    "race_type": "特選一",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月5日)8レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/5/8",
+    "video": "https://vod.winticket.live/race/knywxyQNSuDPA9fixnR1Ze/index.m3u8",
+    "featured": [
+      "015034"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015037",
+        "name": "鈴木竜士",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015596",
+        "name": "中野慎詞",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015298",
+        "name": "嘉永泰斗",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014140",
+        "name": "神山拓弥",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015034",
+        "name": "新山響平",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015480",
+        "name": "松本秀之介",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015094",
+        "name": "佐々木龍",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014182",
+        "name": "大川龍二",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015412",
+        "name": "菊池岳仁",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "熊本",
+    "venue_slug": "kumamoto",
+    "date": "2026-02-22",
+    "race_no": 7,
+    "event": "読売新聞社杯全日本選抜競輪",
+    "race_type": "特選",
+    "distance": 2025,
+    "title": "熊本競輪 読売新聞社杯全日本選抜競輪（2026年2月22日)7レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/kumamoto/raceresult/2026022087/3/7",
+    "video": null,
+    "featured": [
+      "014054"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014129",
+        "name": "菅田壱道",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015412",
+        "name": "菊池岳仁",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014047",
+        "name": "山田英明",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015213",
+        "name": "山崎賢人",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014794",
+        "name": "阿部力也",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015052",
+        "name": "渡邉豪大",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014140",
+        "name": "神山拓弥",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015337",
+        "name": "佐藤礼文",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014054",
+        "name": "新田祐大",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "小田原",
+    "venue_slug": "odawara",
+    "date": "2025-11-09",
+    "race_no": 12,
+    "event": "北条早雲杯争奪戦",
+    "race_type": "決勝",
+    "distance": 2025,
+    "title": "小田原競輪 北条早雲杯争奪戦（2025年11月9日)12レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/odawara/raceresult/2025110636/4/12",
+    "video": null,
+    "featured": [],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014741",
+        "name": "郡司浩平",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014317",
+        "name": "山田久徳",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015431",
+        "name": "鈴木玄人",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015356",
+        "name": "杉浦侑吾",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014744",
+        "name": "和田真久留",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015049",
+        "name": "菅原大也",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015596",
+        "name": "中野慎詞",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014038",
+        "name": "橋本強",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015261",
+        "name": "松井宏佑",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "函館",
+    "venue_slug": "hakodate",
+    "date": "2026-05-16",
+    "race_no": 10,
+    "event": "五稜郭杯争奪戦",
+    "race_type": "準決勝",
+    "distance": 2025,
+    "title": "函館競輪 五稜郭杯争奪戦（2026年5月16日)10レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hakodate/raceresult/2026051411/3/10",
+    "video": null,
+    "featured": [
+      "014681"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015553",
+        "name": "犬伏湧也",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015789",
+        "name": "山崎歩夢",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "013815",
+        "name": "井上昌己",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015449",
+        "name": "橋本優己",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "013917",
+        "name": "成田和也",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015450",
+        "name": "長谷部龍一",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014681",
+        "name": "松浦悠士",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014394",
+        "name": "不破将登",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015649",
+        "name": "後藤大輝",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "函館",
+    "venue_slug": "hakodate",
+    "date": "2026-05-15",
+    "race_no": 9,
+    "event": "五稜郭杯争奪戦",
+    "race_type": "二予選",
+    "distance": 2025,
+    "title": "函館競輪 五稜郭杯争奪戦（2026年5月15日)9レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hakodate/raceresult/2026051411/2/9",
+    "video": null,
+    "featured": [
+      "014681"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014681",
+        "name": "松浦悠士",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014794",
+        "name": "阿部力也",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015649",
+        "name": "後藤大輝",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014714",
+        "name": "橋本智昭",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015373",
+        "name": "晝田宗一郎",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "012541",
+        "name": "室井健一",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014421",
+        "name": "松川高大",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014147",
+        "name": "柿沼信也",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "013894",
+        "name": "園田匠",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "松山",
+    "venue_slug": "matsuyama",
+    "date": "2026-03-08",
+    "race_no": 12,
+    "event": "開設７６周年記念金亀杯争覇戦",
+    "race_type": "決勝",
+    "distance": 2025,
+    "title": "松山競輪 開設７６周年記念金亀杯争覇戦（2026年3月8日)12レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/matsuyama/raceresult/2026030575/4/12",
+    "video": null,
+    "featured": [
+      "015203"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015203",
+        "name": "松本貴治",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015248",
+        "name": "森田優弥",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014054",
+        "name": "新田祐大",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014038",
+        "name": "橋本強",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015465",
+        "name": "石原颯",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015468",
+        "name": "和泉尚吾",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015039",
+        "name": "吉田拓矢",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015125",
+        "name": "佐々木豪",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015553",
+        "name": "犬伏湧也",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-06",
+    "race_no": 1,
+    "event": "日本選手権競輪",
+    "race_type": "選抜",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月6日)1レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/6/1",
+    "video": "https://vod.winticket.live/race/gqkEz4ZNG9XhcFKRzuv895/index.m3u8",
+    "featured": [
+      "015248"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014507",
+        "name": "長島大介",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "013673",
+        "name": "大槻寛徳",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015248",
+        "name": "森田優弥",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "013963",
+        "name": "柏野智典",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015051",
+        "name": "簗田一輝",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "013637",
+        "name": "笠松信幸",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014930",
+        "name": "杉森輝大",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014458",
+        "name": "近藤保",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014097",
+        "name": "稲川翔",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "松山",
+    "venue_slug": "matsuyama",
+    "date": "2026-03-07",
+    "race_no": 11,
+    "event": "開設７６周年記念金亀杯争覇戦",
+    "race_type": "準決勝",
+    "distance": 2025,
+    "title": "松山競輪 開設７６周年記念金亀杯争覇戦（2026年3月7日)11レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/matsuyama/raceresult/2026030575/3/11",
+    "video": null,
+    "featured": [
+      "015248"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015039",
+        "name": "吉田拓矢",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "013963",
+        "name": "柏野智典",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015328",
+        "name": "星野洋輝",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014930",
+        "name": "杉森輝大",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014054",
+        "name": "新田祐大",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015198",
+        "name": "今村麟太郎",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015248",
+        "name": "森田優弥",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015647",
+        "name": "真鍋智寛",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015213",
+        "name": "山崎賢人",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "武雄",
+    "venue_slug": "takeo",
+    "date": "2026-04-18",
+    "race_no": 9,
+    "event": "武雄市制２０周年大楠賞争奪戦",
+    "race_type": "一予選",
+    "distance": 2025,
+    "title": "武雄競輪 武雄市制２０周年大楠賞争奪戦（2026年4月18日)9レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/takeo/raceresult/2026041884/1/9",
+    "video": null,
+    "featured": [
+      "014484"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "013140",
+        "name": "小倉竜二",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014757",
+        "name": "藤井昭吾",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014800",
+        "name": "伊東翔貴",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014819",
+        "name": "太刀川一成",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015123",
+        "name": "清水一幸",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015176",
+        "name": "望月一成",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014484",
+        "name": "河端朋之",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "013653",
+        "name": "森安崇之",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014138",
+        "name": "山下渡",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "武雄",
+    "venue_slug": "takeo",
+    "date": "2026-04-20",
+    "race_no": 11,
+    "event": "武雄市制２０周年大楠賞争奪戦",
+    "race_type": "準決勝",
+    "distance": 2025,
+    "title": "武雄競輪 武雄市制２０周年大楠賞争奪戦（2026年4月20日)11レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/takeo/raceresult/2026041884/3/11",
+    "video": null,
+    "featured": [
+      "014089"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015242",
+        "name": "眞杉匠",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015537",
+        "name": "志田龍星",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "013894",
+        "name": "園田匠",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014744",
+        "name": "和田真久留",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014380",
+        "name": "根田空史",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "013653",
+        "name": "森安崇之",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014507",
+        "name": "長島大介",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015661",
+        "name": "東矢圭吾",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014089",
+        "name": "浅井康太",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "西武園",
+    "venue_slug": "seibuen",
+    "date": "2026-04-10",
+    "race_no": 7,
+    "event": "第１回平原康多カップ",
+    "race_type": "二予選",
+    "distance": 2025,
+    "title": "西武園競輪 第１回平原康多カップ（2026年4月10日)7レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/seibuen/raceresult/2026040926/2/7",
+    "video": null,
+    "featured": [
+      "014089"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015449",
+        "name": "橋本優己",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015517",
+        "name": "橋本壮史",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014129",
+        "name": "菅田壱道",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014883",
+        "name": "才迫開",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015246",
+        "name": "黒沢征治",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014881",
+        "name": "山崎泰己",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014089",
+        "name": "浅井康太",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014580",
+        "name": "久木原洋",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "012939",
+        "name": "伏見俊昭",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "防府",
+    "venue_slug": "hofu",
+    "date": "2026-03-22",
+    "race_no": 12,
+    "event": "ウィナーズカップ",
+    "race_type": "決勝",
+    "distance": 2015,
+    "title": "防府競輪 ウィナーズカップ（2026年3月22日)12レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hofu/raceresult/2026031963/4/12",
+    "video": null,
+    "featured": [
+      "014534"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015009",
+        "name": "清水裕友",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014838",
+        "name": "古性優作",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015039",
+        "name": "吉田拓矢",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014129",
+        "name": "菅田壱道",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014462",
+        "name": "小原太樹",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014846",
+        "name": "久米康平",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015242",
+        "name": "眞杉匠",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015213",
+        "name": "山崎賢人",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014534",
+        "name": "深谷知広",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "静岡",
+    "venue_slug": "shizuoka",
+    "date": "2026-02-14",
+    "race_no": 10,
+    "event": "たちあおい賞争奪戦",
+    "race_type": "準決勝",
+    "distance": 2025,
+    "title": "静岡競輪 たちあおい賞争奪戦（2026年2月14日)10レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/shizuoka/raceresult/2026021238/3/10",
+    "video": null,
+    "featured": [
+      "014534"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014534",
+        "name": "深谷知広",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014553",
+        "name": "久米良",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "013162",
+        "name": "佐藤慎太郎",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "013495",
+        "name": "友定祐己",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015051",
+        "name": "簗田一輝",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015545",
+        "name": "橋本凌汰",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014054",
+        "name": "新田祐大",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014995",
+        "name": "渡邉雄太",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015514",
+        "name": "窪木一茂",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "防府",
+    "venue_slug": "hofu",
+    "date": "2026-03-20",
+    "race_no": 8,
+    "event": "ウィナーズカップ",
+    "race_type": "二予選",
+    "distance": 2015,
+    "title": "防府競輪 ウィナーズカップ（2026年3月20日)8レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hofu/raceresult/2026031963/2/8",
+    "video": null,
+    "featured": [
+      "015009"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015464",
+        "name": "町田太我",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014524",
+        "name": "松谷秀幸",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014253",
+        "name": "伊藤信",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014020",
+        "name": "松坂洋平",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "013894",
+        "name": "園田匠",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014846",
+        "name": "久米康平",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015695",
+        "name": "篠田幸希",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015840",
+        "name": "阿部英斗",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015009",
+        "name": "清水裕友",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "函館",
+    "venue_slug": "hakodate",
+    "date": "2026-05-17",
+    "race_no": 12,
+    "event": "五稜郭杯争奪戦",
+    "race_type": "決勝",
+    "distance": 2025,
+    "title": "函館競輪 五稜郭杯争奪戦（2026年5月17日)12レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hakodate/raceresult/2026051411/4/12",
+    "video": null,
+    "featured": [
+      "015553"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015034",
+        "name": "新山響平",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015553",
+        "name": "犬伏湧也",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015298",
+        "name": "嘉永泰斗",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014659",
+        "name": "武藤龍生",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014681",
+        "name": "松浦悠士",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014854",
+        "name": "久島尚樹",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015037",
+        "name": "鈴木竜士",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015449",
+        "name": "橋本優己",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "013894",
+        "name": "園田匠",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "函館",
+    "venue_slug": "hakodate",
+    "date": "2026-05-15",
+    "race_no": 7,
+    "event": "五稜郭杯争奪戦",
+    "race_type": "二予選",
+    "distance": 2025,
+    "title": "函館競輪 五稜郭杯争奪戦（2026年5月15日)7レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hakodate/raceresult/2026051411/2/7",
+    "video": null,
+    "featured": [
+      "015553"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "013880",
+        "name": "岩津裕介",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014317",
+        "name": "山田久徳",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015661",
+        "name": "東矢圭吾",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "015183",
+        "name": "小森貴大",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014507",
+        "name": "長島大介",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015336",
+        "name": "小畑勝広",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015553",
+        "name": "犬伏湧也",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014122",
+        "name": "松岡貴久",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "013963",
+        "name": "柏野智典",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-06",
+    "race_no": 6,
+    "event": "日本選手権競輪",
+    "race_type": "特選一",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月6日)6レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/6/6",
+    "video": "https://vod.winticket.live/race/bE2NQPTuR7Ghqka77GzuX1/index.m3u8",
+    "featured": [
+      "015553"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "013894",
+        "name": "園田匠",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015341",
+        "name": "坂井洋",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "013162",
+        "name": "佐藤慎太郎",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "013355",
+        "name": "桑原大志",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015596",
+        "name": "中野慎詞",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015480",
+        "name": "松本秀之介",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015439",
+        "name": "佐々木眞也",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "013532",
+        "name": "佐々木雄一",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015553",
+        "name": "犬伏湧也",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-03",
+    "race_no": 11,
+    "event": "日本選手権競輪",
+    "race_type": "二予選",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月3日)11レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/3/11",
+    "video": "https://vod.winticket.live/race/sM9JaZYyvPeCzu9CE75SkS/index.m3u8",
+    "featured": [],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014317",
+        "name": "山田久徳",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015242",
+        "name": "眞杉匠",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "013140",
+        "name": "小倉竜二",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014996",
+        "name": "岡本総",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015094",
+        "name": "佐々木龍",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015436",
+        "name": "青野将大",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015431",
+        "name": "鈴木玄人",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015090",
+        "name": "高橋築",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015553",
+        "name": "犬伏湧也",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-03",
+    "race_no": 7,
+    "event": "日本選手権競輪",
+    "race_type": "二予選",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月3日)7レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/3/7",
+    "video": "https://vod.winticket.live/race/gRGXrg6CzRT2ZF1ZU44zow/index.m3u8",
+    "featured": [
+      "015465"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015465",
+        "name": "石原颯",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014462",
+        "name": "小原太樹",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015412",
+        "name": "菊池岳仁",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "013249",
+        "name": "諸橋愛",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014356",
+        "name": "佐藤一伸",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014505",
+        "name": "雨谷一樹",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015261",
+        "name": "松井宏佑",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014052",
+        "name": "飯野祐太",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015203",
+        "name": "松本貴治",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "熊本",
+    "venue_slug": "kumamoto",
+    "date": "2026-02-23",
+    "race_no": 12,
+    "event": "読売新聞社杯全日本選抜競輪",
+    "race_type": "決勝",
+    "distance": 2425,
+    "title": "熊本競輪 読売新聞社杯全日本選抜競輪（2026年2月23日)12レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/kumamoto/raceresult/2026022087/4/12",
+    "video": null,
+    "featured": [
+      "014396"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014741",
+        "name": "郡司浩平",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "013516",
+        "name": "荒井崇博",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014396",
+        "name": "脇本雄太",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014681",
+        "name": "松浦悠士",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015413",
+        "name": "寺崎浩平",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014252",
+        "name": "三谷将太",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015451",
+        "name": "山口拳矢",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015553",
+        "name": "犬伏湧也",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014838",
+        "name": "古性優作",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "熊本",
+    "venue_slug": "kumamoto",
+    "date": "2026-02-20",
+    "race_no": 10,
+    "event": "読売新聞社杯全日本選抜競輪",
+    "race_type": "特選予",
+    "distance": 2025,
+    "title": "熊本競輪 読売新聞社杯全日本選抜競輪（2026年2月20日)10レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/kumamoto/raceresult/2026022087/1/10",
+    "video": null,
+    "featured": [
+      "014396"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014396",
+        "name": "脇本雄太",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "013516",
+        "name": "荒井崇博",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015039",
+        "name": "吉田拓矢",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014524",
+        "name": "松谷秀幸",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "013962",
+        "name": "南修二",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "013162",
+        "name": "佐藤慎太郎",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015597",
+        "name": "太田海也",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014659",
+        "name": "武藤龍生",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015261",
+        "name": "松井宏佑",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "伊東",
+    "venue_slug": "ito",
+    "date": "2026-04-03",
+    "race_no": 7,
+    "event": "椿賞争奪戦",
+    "race_type": "二予選",
+    "distance": 2025,
+    "title": "伊東競輪 椿賞争奪戦（2026年4月3日)7レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/ito/raceresult/2026040237/2/7",
+    "video": null,
+    "featured": [
+      "013516"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "013516",
+        "name": "荒井崇博",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015324",
+        "name": "小原佑太",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015122",
+        "name": "島川将貴",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014995",
+        "name": "渡邉雄太",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015063",
+        "name": "小川真太郎",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015097",
+        "name": "長谷部翔",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015840",
+        "name": "阿部英斗",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014786",
+        "name": "本郷雄三",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "013673",
+        "name": "大槻寛徳",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "防府",
+    "venue_slug": "hofu",
+    "date": "2026-03-22",
+    "race_no": 8,
+    "event": "ウィナーズカップ",
+    "race_type": "特選",
+    "distance": 2015,
+    "title": "防府競輪 ウィナーズカップ（2026年3月22日)8レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hofu/raceresult/2026031963/4/8",
+    "video": null,
+    "featured": [
+      "013516"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015298",
+        "name": "嘉永泰斗",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014794",
+        "name": "阿部力也",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014253",
+        "name": "伊藤信",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "013894",
+        "name": "園田匠",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015243",
+        "name": "小林泰正",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014837",
+        "name": "神田紘輔",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "013851",
+        "name": "和田健太郎",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015789",
+        "name": "山崎歩夢",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "013516",
+        "name": "荒井崇博",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "大垣",
+    "venue_slug": "ogaki",
+    "date": "2026-03-03",
+    "race_no": 12,
+    "event": "開設７３周年記念 水都大垣杯",
+    "race_type": "決勝",
+    "distance": 2025,
+    "title": "大垣競輪 開設７３周年記念 水都大垣杯（2026年3月3日)12レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/ogaki/raceresult/2026022844/4/12",
+    "video": null,
+    "featured": [],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014741",
+        "name": "郡司浩平",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015451",
+        "name": "山口拳矢",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014838",
+        "name": "古性優作",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "013730",
+        "name": "東口善朋",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014129",
+        "name": "菅田壱道",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014718",
+        "name": "小松崎大地",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015341",
+        "name": "坂井洋",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015537",
+        "name": "志田龍星",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015009",
+        "name": "清水裕友",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-01",
+    "race_no": 11,
+    "event": "日本選手権競輪",
+    "race_type": "特選予",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月1日)11レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/1/11",
+    "video": "https://vod.winticket.live/race/obG1kj9SNbv1SG6Jb8FLBZ/index.m3u8",
+    "featured": [
+      "014741"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014741",
+        "name": "郡司浩平",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015553",
+        "name": "犬伏湧也",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015035",
+        "name": "阿部拓真",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014089",
+        "name": "浅井康太",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015034",
+        "name": "新山響平",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014744",
+        "name": "和田真久留",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015203",
+        "name": "松本貴治",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014377",
+        "name": "岩本俊介",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "015451",
+        "name": "山口拳矢",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "防府",
+    "venue_slug": "hofu",
+    "date": "2026-03-19",
+    "race_no": 12,
+    "event": "ウィナーズカップ",
+    "race_type": "特選予",
+    "distance": 2015,
+    "title": "防府競輪 ウィナーズカップ（2026年3月19日)12レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hofu/raceresult/2026031963/1/12",
+    "video": null,
+    "featured": [
+      "014741"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014741",
+        "name": "郡司浩平",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015035",
+        "name": "阿部拓真",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015298",
+        "name": "嘉永泰斗",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014462",
+        "name": "小原太樹",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015451",
+        "name": "山口拳矢",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014253",
+        "name": "伊藤信",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014534",
+        "name": "深谷知広",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015473",
+        "name": "青柳靖起",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014054",
+        "name": "新田祐大",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "豊橋",
+    "venue_slug": "toyohashi",
+    "date": "2026-03-30",
+    "race_no": 12,
+    "event": "開設７６周年記念ちぎり賞争奪戦",
+    "race_type": "準決勝",
+    "distance": 2025,
+    "title": "豊橋競輪 開設７６周年記念ちぎり賞争奪戦（2026年3月30日)12レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/toyohashi/raceresult/2026032845/3/12",
+    "video": null,
+    "featured": [
+      "015035"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "015034",
+        "name": "新山響平",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "014744",
+        "name": "和田真久留",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014484",
+        "name": "河端朋之",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "013923",
+        "name": "武田豊樹",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015035",
+        "name": "阿部拓真",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "014633",
+        "name": "田中陽平",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "015516",
+        "name": "木村皆斗",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014212",
+        "name": "山崎将幸",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "013059",
+        "name": "香川雄介",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2025-12-30",
+    "race_no": 11,
+    "event": "ＫＥＩＲＩＮグランプリ２０２５",
+    "race_type": "ＧＰ",
+    "distance": 2825,
+    "title": "平塚競輪 ＫＥＩＲＩＮグランプリ２０２５（2025年12月30日)11レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2025122835/3/11",
+    "video": "https://vod.winticket.live/race/iW1kVDcatV5qBPev4mDtDQ/index.m3u8",
+    "featured": [],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014741",
+        "name": "郡司浩平",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015413",
+        "name": "寺崎浩平",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "015242",
+        "name": "眞杉匠",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "013962",
+        "name": "南修二",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "015039",
+        "name": "吉田拓矢",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015035",
+        "name": "阿部拓真",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "014396",
+        "name": "脇本雄太",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "015298",
+        "name": "嘉永泰斗",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014838",
+        "name": "古性優作",
+        "absent": false
+      }
+    ]
+  },
+  {
+    "venue": "平塚",
+    "venue_slug": "hiratsuka",
+    "date": "2026-05-01",
+    "race_no": 8,
+    "event": "日本選手権競輪",
+    "race_type": "一予選",
+    "distance": 2025,
+    "title": "平塚競輪 日本選手権競輪（2026年5月1日)8レース 結果【ウィンチケット競輪】",
+    "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/1/8",
+    "video": "https://vod.winticket.live/race/txz7PociQu3LfEru4XvQZj/index.m3u8",
+    "featured": [
+      "015465"
+    ],
+    "entries": [
+      {
+        "car": 1,
+        "playerId": "014103",
+        "name": "村田雅一",
+        "absent": false
+      },
+      {
+        "car": 2,
+        "playerId": "015465",
+        "name": "石原颯",
+        "absent": false
+      },
+      {
+        "car": 3,
+        "playerId": "014861",
+        "name": "金子幸央",
+        "absent": false
+      },
+      {
+        "car": 4,
+        "playerId": "014322",
+        "name": "片岡迪之",
+        "absent": false
+      },
+      {
+        "car": 5,
+        "playerId": "014507",
+        "name": "長島大介",
+        "absent": false
+      },
+      {
+        "car": 6,
+        "playerId": "015390",
+        "name": "伊藤颯馬",
+        "absent": false
+      },
+      {
+        "car": 7,
+        "playerId": "013140",
+        "name": "小倉竜二",
+        "absent": false
+      },
+      {
+        "car": 8,
+        "playerId": "014421",
+        "name": "松川高大",
+        "absent": false
+      },
+      {
+        "car": 9,
+        "playerId": "014605",
+        "name": "中井太祐",
+        "absent": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EPO LEAGUE — 競輪学習</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Oxanium:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=7" />
+  <link rel="stylesheet" href="css/gate.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="inner">
+      <div class="brand" data-nav="home">
+        <span class="mark">EPO<b>°</b>LEAGUE</span>
+        <span class="sub">keirin trainer</span>
+      </div>
+      <nav class="nav" id="nav">
+        <button data-nav="home">ホーム</button>
+        <button data-nav="quiz">クイズ</button>
+        <button data-nav="cards">単語帳</button>
+        <button data-nav="dex">選手図鑑</button>
+        <button data-nav="races">レース</button>
+        <button data-nav="velo">競輪場</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap" id="view">
+    <div class="loader">
+      <div class="spinner"></div>
+      <p style="color:var(--ink-dim)">マスターデータ読み込み中…</p>
+    </div>
+  </main>
+
+  <div id="modal-root"></div>
+
+  <footer class="foot wrap">
+    出典: KEIRIN.JP / Figma「202606 高松宮記念杯競輪G1」 ・
+    地区区分はボード準拠 ・ データ: <code>data/master/</code>
+  </footer>
+
+  <!-- 簡易パスワードゲート経由で app.js を読み込む -->
+  <script src="js/gate.js"></script>
+</body>
+</html>

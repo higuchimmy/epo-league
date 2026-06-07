@@ -1,0 +1,37 @@
+[
+  {
+    "name": "福井",
+    "wt_page": "https://www.winticket.jp/keirin/fukui",
+    "wt_column": "https://www.winticket.jp/keirin/column/38473",
+    "official_site": "https://www.f-keirin.jp",
+    "racers_list": "https://www.f-keirin.jp/racers"
+  },
+  {
+    "name": "奈良",
+    "wt_page": "https://www.winticket.jp/keirin/nara/",
+    "wt_column": "https://www.winticket.jp/keirin/column/voBH6KUU4r87skMBDArw4Y",
+    "official_site": "https://www.narakeirin.jp/",
+    "racers_list": "https://www.narakeirin.jp/player.html"
+  },
+  {
+    "name": "京都向日町",
+    "wt_page": "https://www.winticket.jp/keirin/mukomachi/",
+    "wt_column": "https://www.winticket.jp/keirin/column/00972",
+    "official_site": "https://www.keirinwa.com/",
+    "racers_list": "https://www.keirinwa.com/player/"
+  },
+  {
+    "name": "和歌山",
+    "wt_page": "https://www.winticket.jp/keirin/wakayama/",
+    "wt_column": "https://www.winticket.jp/keirin/column/26786",
+    "official_site": "https://www.keirinwa.com/",
+    "racers_list": "https://www.keirinwa.com/player/"
+  },
+  {
+    "name": "岸和田",
+    "wt_page": "https://www.winticket.jp/keirin/kishiwada/",
+    "wt_column": "https://www.winticket.jp/keirin/column/99120",
+    "official_site": "https://chalionkun.com/",
+    "racers_list": "https://chalionkun.com/native/s12/"
+  }
+]
