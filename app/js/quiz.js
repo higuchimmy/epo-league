@@ -15,6 +15,8 @@ export const QUIZ_TYPES = [
   { id: "home",     label: "ホーム", group: "選手", desc: "選手のホームバンクを当てる" },
   { id: "mentor",   label: "師匠",   group: "選手", desc: "選手の師匠を当てる" },
   { id: "venueRegion", label: "競輪場の地区", group: "場", desc: "競輪場のある地区を当てる" },
+  { id: "venuePref", label: "競輪場の所在地", group: "場", desc: "競輪場のある都道府県を当てる" },
+  { id: "venueCircum", label: "競輪場の周長", group: "場", desc: "競輪場のバンク周長(m)を当てる" },
   { id: "raceCar", label: "出走表", group: "レース", desc: "出走表の◯番車の選手を当てる (出走表形式)" },
   { id: "video", label: "映像", group: "レース", desc: "ダイジェスト映像を見て◯番車の選手を当てる (映像形式)" },
 ];
@@ -49,6 +51,8 @@ export function generateQuestion(typeId, data) {
   const { players, regions, velodromes, races } = data;
   const FOOT = ["逃げ", "追込", "両"];
   const CLASSES = uniq(players.map((p) => p.class));
+  // 属性クイズの出題対象。スコープ指定があればその地区の選手のみ(顔↔名前は全選手のまま)
+  const attr = (data.attrPlayers && data.attrPlayers.length) ? data.attrPlayers : players;
 
   // レース系: 出走表(車番→選手名)から1台を伏せて当てる
   function raceQuestion(needVideo) {
@@ -95,7 +99,7 @@ export function generateQuestion(typeId, data) {
       };
     }
     case "hints": {
-      const p = pick(players);
+      const p = pick(attr);
       const cand = [
         ["生年月日", p.birthdate], ["期別", p.period ? p.period + "期" : null],
         ["級班", p.class], ["脚質", p.footwork_label], ["出身", p.prefecture],
@@ -114,7 +118,7 @@ export function generateQuestion(typeId, data) {
       };
     }
     case "region": {
-      const p = pick(players);
+      const p = pick(attr);
       return {
         type: typeId, prompt: `${p.name} の地区は？`,
         media: { kind: "photo", player: p, small: true },
@@ -124,7 +128,7 @@ export function generateQuestion(typeId, data) {
       };
     }
     case "class": {
-      const p = pick(players);
+      const p = pick(attr);
       return {
         type: typeId, prompt: `${p.name} の級班は？`,
         media: { kind: "photo", player: p, small: true },
@@ -134,7 +138,7 @@ export function generateQuestion(typeId, data) {
       };
     }
     case "footwork": {
-      const p = pick(players);
+      const p = pick(attr);
       return {
         type: typeId, prompt: `${p.name} の脚質は？`,
         media: { kind: "photo", player: p, small: true },
@@ -143,7 +147,7 @@ export function generateQuestion(typeId, data) {
       };
     }
     case "pref": {
-      const p = pick(players);
+      const p = pick(attr);
       return {
         type: typeId, prompt: `${p.name} の登録地（府県）は？`,
         media: { kind: "photo", player: p, small: true },
@@ -153,23 +157,21 @@ export function generateQuestion(typeId, data) {
       };
     }
     case "home": {
-      const pool = players.filter((p) => p.home_bank);
-      const p = pick(pool);
+      const p = pick(attr.filter((q) => q.home_bank));
       return {
         type: typeId, prompt: `${p.name} のホームバンクは？`,
         media: { kind: "photo", player: p, small: true },
-        choices: buildChoices(p.home_bank, pool.map((q) => q.home_bank)),
+        choices: buildChoices(p.home_bank, players.filter((q) => q.home_bank).map((q) => q.home_bank)),
         answer: p.home_bank, player: p,
         explain: `${p.name} のホームは ${p.home_bank}`,
       };
     }
     case "mentor": {
-      const pool = players.filter((p) => p.mentor);
-      const p = pick(pool);
+      const p = pick(attr.filter((q) => q.mentor));
       return {
         type: typeId, prompt: `${p.name} の師匠は？`,
         media: { kind: "photo", player: p, small: true },
-        choices: buildChoices(p.mentor, pool.map((q) => q.mentor)),
+        choices: buildChoices(p.mentor, players.filter((q) => q.mentor).map((q) => q.mentor)),
         answer: p.mentor, player: p,
         explain: `${p.name} の師匠は ${p.mentor}`,
       };
@@ -196,17 +198,41 @@ export function generateQuestion(typeId, data) {
         explain: `${v}競輪場は ${ans} 地区`,
       };
     }
+    case "venuePref": {
+      const pool = (velodromes || []).filter((v) => v.prefecture);
+      if (!pool.length) return generateQuestion("photo2name", data);
+      const v = pick(pool);
+      return {
+        type: typeId, prompt: `${v.name}競輪場の所在地（都道府県）は？`,
+        media: null,
+        choices: buildChoices(v.prefecture, pool.map((x) => x.prefecture)),
+        answer: v.prefecture,
+        explain: `${v.name}競輪場は ${v.prefecture}（${v.region}）`,
+      };
+    }
+    case "venueCircum": {
+      const pool = (velodromes || []).filter((v) => v.circumference_m);
+      if (!pool.length) return generateQuestion("photo2name", data);
+      const v = pick(pool);
+      const ans = v.circumference_m + "m";
+      return {
+        type: typeId, prompt: `${v.name}競輪場のバンク周長は？`,
+        media: null,
+        choices: shuffle(["333m", "400m", "500m"]),
+        answer: ans,
+        explain: `${v.name}競輪場のバンク周長は ${ans}`,
+      };
+    }
     default:
       return generateQuestion("photo2name", data);
   }
 }
 
 // --- セッション(複数問) ---
-export function buildSession(data, { types, count = 10, pool = null }) {
+export function buildSession(data, { types, count = 10, pool = null, attrPlayers = null }) {
   const usable = types && types.length ? types : QUIZ_TYPES.map((t) => t.id);
-  const scoped = pool
-    ? { ...data, players: data.players.filter(pool) }
-    : data;
+  let scoped = pool ? { ...data, players: data.players.filter(pool) } : data;
+  if (attrPlayers) scoped = { ...scoped, attrPlayers };  // 属性クイズのみ対象を絞る
   const qs = [];
   for (let i = 0; i < count; i++) {
     qs.push(generateQuestion(pick(usable), scoped));

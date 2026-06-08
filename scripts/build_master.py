@@ -97,8 +97,19 @@ def main() -> None:
         for r in REGION_ORDER
     ]
 
-    # --- velodromes ---
+    # --- velodromes (場の理解リンク + WINTICKET由来の諸元を統合) ---
     velodromes = figma["velodromes"]
+    vdetail = {v["name"]: v for v in load("venues_detail.json")}
+    # ボード名 -> WINTICKET名 の対応(差異のみ)
+    VNAME = {"京都向日町": "向日町"}
+    for v in velodromes:
+        d = vdetail.get(VNAME.get(v["name"], v["name"]))
+        if d:
+            v["prefecture"] = d.get("prefecture")
+            v["region"] = d.get("region")
+            v["circumference_m"] = d.get("circumference_m")
+            v["website"] = d.get("website")
+            v["feature"] = d.get("feature")
 
     # --- races (WINTICKETから収集した実データ: 出走表・ダイジェスト動画つき) ---
     slug2jp = {v: k for k, v in VENUE_SLUG.items()}
@@ -123,11 +134,19 @@ def main() -> None:
     # --- quiz templates ---
     quiz = figma["quiz_templates"]
 
+    # --- glossary terms (KEIRIN.JP 競輪用語集) ---
+    glossary = load("glossary_terms.json")
+    terms = [
+        {"term": t["term"], "reading": t.get("reading", ""), "desc": t["desc"]}
+        for t in glossary
+    ]
+
     dump("regions.json", regions)
     dump("players.json", players)
     dump("velodromes.json", velodromes)
     dump("races.json", races)
     dump("quiz_templates.json", quiz)
+    dump("terms.json", terms)
     dump(
         "master.json",
         {
@@ -138,6 +157,7 @@ def main() -> None:
                 "velodrome_count": len(velodromes),
                 "race_count": len(races),
                 "quiz_template_count": len(quiz),
+                "term_count": len(terms),
                 "notes": [
                     "選手データの出典: KEIRIN.JP (keirin.jp/pc/racerprofile)",
                     "地区区分はFigmaボードの地区マップ準拠(東京は関東、福井は近畿、静岡は南関東、長野/新潟は関東)",
@@ -149,6 +169,7 @@ def main() -> None:
             "velodromes": velodromes,
             "races": races,
             "quiz_templates": quiz,
+            "terms": terms,
         },
     )
 

@@ -4,34 +4,59 @@
     "wt_page": "https://www.winticket.jp/keirin/fukui",
     "wt_column": "https://www.winticket.jp/keirin/column/38473",
     "official_site": "https://www.f-keirin.jp",
-    "racers_list": "https://www.f-keirin.jp/racers"
+    "racers_list": "https://www.f-keirin.jp/racers",
+    "prefecture": "福井県",
+    "region": "近畿",
+    "circumference_m": 400,
+    "website": "http://www.f-keirin.jp/",
+    "feature": "福井競輪場は日本競輪学校をモデルにして作られた周長400ｍのバンクです。\nクセがなく「逃げ」「差し」「まくり」が均等に決まります。\n夏場の風は特に軽くバックは追い風、ホームは無風が多いです。追い込みは先手の3番手以内に位置できれば、直線は外寄りのコースが伸びるのをつかって勝負にいけます。直線が比較的短いため、捲りは早目に仕掛け3コーナーで先頭に立てるのが望ましいです。先行タイプの選手がやや有利です。"
   },
   {
     "name": "奈良",
     "wt_page": "https://www.winticket.jp/keirin/nara/",
     "wt_column": "https://www.winticket.jp/keirin/column/voBH6KUU4r87skMBDArw4Y",
     "official_site": "https://www.narakeirin.jp/",
-    "racers_list": "https://www.narakeirin.jp/player.html"
+    "racers_list": "https://www.narakeirin.jp/player.html",
+    "prefecture": "奈良県",
+    "region": "近畿",
+    "circumference_m": 333,
+    "website": "https://www.narakeirin.jp",
+    "feature": "奈良競輪所は周長333mで直線距離は38mと小さく丸いバンクです。バックでは向かい風が多く、\nバンク全体を観客席で囲まれており、建物の合間から風が入り込み渦巻くことがありますが\n改修を重ねたガタの少ない軽い走路で、長い距離をモガける先行型に向きます。\n2コーナーと4コーナーの両方に同じ着順表示板が設置されています。\n競りは内外で有利不利はなく直線で伸びるコースもなくライン決着が多いです。"
   },
   {
     "name": "京都向日町",
     "wt_page": "https://www.winticket.jp/keirin/mukomachi/",
     "wt_column": "https://www.winticket.jp/keirin/column/00972",
     "official_site": "https://www.keirinwa.com/",
-    "racers_list": "https://www.keirinwa.com/player/"
+    "racers_list": "https://www.keirinwa.com/player/",
+    "prefecture": "京都府",
+    "region": "近畿",
+    "circumference_m": 400,
+    "website": "https://kyoto-mukomachikeirin.com/",
+    "feature": "向日町競輪場は周長400mのバンクとなります。\n直線がやや短めで傾斜もあり、すり鉢状な事が特徴です。コーナー部分は少し長いです。\nそのため僅かながら捲り選手が有利です。3番手の選手が不利な展開が多く、競りはインが有利です。\n先行は早めに踏み込んでバックを乗り切り最後のゴール前で踏む脚を残しておくと決まりやすいです。\n直線で特に伸びるコースはないとされています。"
   },
   {
     "name": "和歌山",
     "wt_page": "https://www.winticket.jp/keirin/wakayama/",
     "wt_column": "https://www.winticket.jp/keirin/column/26786",
     "official_site": "https://www.keirinwa.com/",
-    "racers_list": "https://www.keirinwa.com/player/"
+    "racers_list": "https://www.keirinwa.com/player/",
+    "prefecture": "和歌山県",
+    "region": "近畿",
+    "circumference_m": 400,
+    "website": "http://www.keirinwa.com/",
+    "feature": "和歌山競輪場は周長400mのバンクです。\n規模は全国21番目、近畿では今はなき「住之江」「宝ヶ池」「神戸」などに次いで6番目の競輪場です。\n平成11年の改修でバンクの特徴が大変貌し走りやすいコースになりました。（マッコネール曲線）\n現在のバンクはクセのない走りやすいバンクで、直線も比較的長いため、どの脚質の選手でも実力を存分に発揮できることが特徴です。\n直線は中に強襲コースが存在しサラ脚の3番手が番手の選手を交わす場面も見うけられます。\nホーム側は向かい風、バック側では追い風です。"
   },
   {
     "name": "岸和田",
     "wt_page": "https://www.winticket.jp/keirin/kishiwada/",
     "wt_column": "https://www.winticket.jp/keirin/column/99120",
     "official_site": "https://chalionkun.com/",
-    "racers_list": "https://chalionkun.com/native/s12/"
+    "racers_list": "https://chalionkun.com/native/s12/",
+    "prefecture": "大阪府",
+    "region": "近畿",
+    "circumference_m": 400,
+    "website": "http://chalionkun.com",
+    "feature": "岸和田競輪場は周長400mのバンクです。直線の長さは158.6mとなっており標準です。クセのない走りやすいバンクで直線も比較的長いため、脚質による有利不利はありません。大画面映像装置が2センター側に設置されています。\n全体的に強い横風が吹き重く，直線は中と外に強襲コースがあり、先制ラインの3番手の選手が交しの場面も多いことが特徴です。捲りは3角までに出切るか、3角からの仕掛けが有効といえます。"
   }
 ]

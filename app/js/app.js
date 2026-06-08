@@ -1,5 +1,5 @@
 // app.js — 画面制御 (依存なし / ESモジュール)
-import { QUIZ_TYPES, buildSession, generateQuestion } from "./quiz.js";
+import { QUIZ_TYPES, buildSession, generateQuestion } from "./quiz.js?v=11";
 
 const DATA_BASE = "../data/master/";
 const photoUrl = (p) => DATA_BASE + p.photo;
@@ -25,6 +25,24 @@ const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<
 let DB = null;
 const state = { regionFilter: "all", classFilter: "all", search: "" };
 
+// ===== 出題スコープ設定（一旦の範囲限定） =====================================
+// 出題範囲: 岸和田G1出場選手(=全107名) / 近畿の場 / 近畿が地元の選手
+//  - 顔↔名前・図鑑・単語帳 … 全107名
+//  - 属性クイズ(地区/級班/脚質/出身/ホーム/師匠/連想) … 近畿登録の選手のみ
+//  - レース(映像/出走表クイズ・レース画面) と 競輪場の地区クイズ … 範囲外で無効化
+// 全データに戻すには enabled を false にするだけ。
+const SCOPE = { enabled: true, region: "近畿" };
+// 範囲外として無効化する出題形式
+const SCOPE_DISABLED_TYPES = ["raceCar", "video", "venueRegion"];
+// 範囲外として無効化する画面
+const SCOPE_DISABLED_NAV = ["races"];
+const kinkiPlayers = () => DB.players.filter((p) => p.region === SCOPE.region);
+// スコープ有効時に使える出題形式(範囲外を除外)
+const scopedQuizTypes = () => SCOPE.enabled
+  ? QUIZ_TYPES.filter((t) => !SCOPE_DISABLED_TYPES.includes(t.id))
+  : QUIZ_TYPES;
+// ===========================================================================
+
 // ---------------- 起動 ----------------
 init();
 async function init() {
@@ -42,6 +60,13 @@ async function init() {
     const t = e.target;
     if (t && t.tagName === "IMG" && !t.dataset.fb) { t.dataset.fb = "1"; t.src = placeholderSVG(t.dataset.nm); }
   }, true);
+  // スコープ: 範囲外の画面はナビから隠す
+  if (SCOPE.enabled) {
+    SCOPE_DISABLED_NAV.forEach((n) => {
+      const b = nav.querySelector(`[data-nav="${n}"]`);
+      if (b) b.style.display = "none";
+    });
+  }
   nav.addEventListener("click", (e) => { const b = e.target.closest("[data-nav]"); if (b) go(b.dataset.nav); });
   document.querySelector(".brand").addEventListener("click", () => go("home"));
   window.addEventListener("hashchange", () => route(location.hash.slice(1) || "home"));
@@ -56,23 +81,24 @@ function go(name) {
 
 function route(name) {
   if (!DB) return;
+  if (SCOPE.enabled && SCOPE_DISABLED_NAV.includes(name)) name = "home";  // 範囲外画面はホームへ
   document.onkeydown = null;
   modalRoot.innerHTML = "";
   [...nav.children].forEach((b) => b.classList.toggle("active", b.dataset.nav === name));
   window.scrollTo(0, 0);
-  ({ home: Home, quiz: QuizSetup, cards: Cards, dex: Dex, races: Races, velo: Velo }[name] || Home)();
+  ({ home: Home, quiz: QuizSetup, cards: Dex, dex: Dex, races: Races, velo: Velo }[name] || Home)();
 }
 
 // ================= HOME =================
 function Home() {
   const m = DB.meta;
-  const modes = [
-    ["01", "クイズ", "4択で実戦インプット。出題形式と地区を選んでスタート。", "quiz"],
-    ["02", "単語帳", "顔写真をめくってプロフィールを暗記。地区・級班で絞り込み。", "cards"],
-    ["03", "選手図鑑", `参加 ${m.player_count} 選手を一覧。タップで詳細カード。`, "dex"],
-    ["04", "レース映像", `学習用ピックアップ ${m.race_count} レースの索引。`, "races"],
-    ["05", "競輪場", "場の理解。公式・コラム・所属選手へのリンク集。", "velo"],
+  let modes = [
+    ["01", "クイズ", "4択で実戦インプット。出題形式を選んでスタート。", "quiz"],
+    ["02", "選手図鑑", `${m.player_count}選手をカードで一覧。検索・地区・級班で絞り込み。`, "dex"],
+    ["03", "レース映像", `学習用ピックアップ ${m.race_count} レースの索引。`, "races"],
+    ["04", "競輪場", "近畿の場の理解。所在地・周長・特徴・リンク。", "velo"],
   ];
+  if (SCOPE.enabled) modes = modes.filter((x) => !SCOPE_DISABLED_NAV.includes(x[3]));
   view.innerHTML = `
     <section class="hero">
       <div class="speed"></div>
@@ -80,8 +106,9 @@ function Home() {
       <h1 class="title">バンクの上の<br>全員を、覚える。</h1>
       <p class="lead">エポリーグの学習ボードをそのままアプリに。選手・ライン・地区・場を、4択クイズと単語帳で叩き込む競輪インプット道場。</p>
       <div class="stats-row">
-        ${stat(m.player_count, "選手")}${stat(m.region_count, "地区")}
-        ${stat(m.velodrome_count, "競輪場")}${stat(m.race_count, "レース")}${stat(QUIZ_TYPES.length, "出題形式")}
+        ${SCOPE.enabled
+          ? stat(m.player_count, "G1出場") + stat(kinkiPlayers().length, "近畿選手") + stat(m.velodrome_count, "近畿の場") + stat(scopedQuizTypes().length, "出題形式")
+          : stat(m.player_count, "選手") + stat(m.region_count, "地区") + stat(m.velodrome_count, "競輪場") + stat(m.race_count, "レース") + stat(QUIZ_TYPES.length, "出題形式")}
       </div>
     </section>
     <div class="modes">
@@ -99,26 +126,35 @@ function Home() {
 const stat = (n, l) => `<div class="stat"><div class="n">${n}</div><div class="l">${l}</div></div>`;
 
 // ================= QUIZ =================
-const quizState = { types: new Set(QUIZ_TYPES.filter(t => t.group === "選手" || t.id === "raceCar").map(t => t.id)), count: 10, region: "all" };
+const _defaultTypes = () => scopedQuizTypes().filter((t) => t.group === "選手" || t.group === "場").map((t) => t.id);
+const quizState = { types: new Set(_defaultTypes()), count: 10, region: "all" };
 function QuizSetup() {
   const regions = ["all", ...DB.regions.map((r) => r.name)];
+  const typeList = scopedQuizTypes();
+  // スコープ無効化された形式が選択に残らないよう掃除
+  for (const id of [...quizState.types]) {
+    if (!typeList.some((t) => t.id === id)) quizState.types.delete(id);
+  }
+  if (quizState.types.size === 0) _defaultTypes().forEach((id) => quizState.types.add(id));
   view.innerHTML = `
     <section class="quiz-setup">
       <span class="kicker">QUIZ</span>
       <h1 class="title" style="font-size:clamp(26px,5vw,42px)">出題設定</h1>
-      <div class="card" style="padding:24px">
+      ${SCOPE.enabled ? `<p class="lead">出題範囲: 岸和田G1出場選手(全${DB.players.length}名) ／ 近畿の場 ／ 近畿が地元の選手。<br>顔↔名前は全選手、属性問題は近畿登録選手から出題。</p>` : ""}
+      <div class="card" style="padding:24px;margin-top:14px">
         <div class="group">
           <div class="glabel">出題形式 <span class="tag region" id="tcount"></span></div>
           <div class="chips" id="typeChips">
-            ${QUIZ_TYPES.map((t) => `<button class="chip ${quizState.types.has(t.id) ? "on red" : ""}" data-t="${t.id}" title="${esc(t.desc)}">${esc(t.label)}</button>`).join("")}
+            ${typeList.map((t) => `<button class="chip ${quizState.types.has(t.id) ? "on red" : ""}" data-t="${t.id}" title="${esc(t.desc)}">${esc(t.label)}</button>`).join("")}
           </div>
         </div>
+        ${SCOPE.enabled ? "" : `
         <div class="group">
           <div class="glabel">地区しぼり</div>
           <div class="chips" id="regChips">
             ${regions.map((r) => `<button class="chip ${quizState.region === r ? "on" : ""}" data-r="${r}">${r === "all" ? "すべて" : r}</button>`).join("")}
           </div>
-        </div>
+        </div>`}
         <div class="group">
           <div class="glabel">問題数</div>
           <div class="chips" id="cntChips">
@@ -137,7 +173,7 @@ function QuizSetup() {
     else quizState.types.add(id);
     b.classList.toggle("on"); b.classList.toggle("red", quizState.types.has(id)); upd();
   });
-  toggleGroup("#regChips", "r", (v) => { quizState.region = v; });
+  if (view.querySelector("#regChips")) toggleGroup("#regChips", "r", (v) => { quizState.region = v; });
   toggleGroup("#cntChips", "c", (v) => { quizState.count = +v; });
   document.getElementById("startBtn").addEventListener("click", startQuiz);
 }
@@ -151,12 +187,19 @@ function toggleGroup(sel, attr, set) {
 
 let session = null;
 function startQuiz() {
-  const pool = quizState.region === "all" ? null : (p) => p.region === quizState.region;
-  // 地区しぼり時は選手系のみ(競輪場問題は近畿固定のため除外)
   let types = [...quizState.types];
-  if (pool) types = types.filter((t) => t !== "venueRegion");
-  if (!types.length) types = ["region"];
-  const qs = buildSession(DB, { types, count: quizState.count, pool });
+  let pool = null;
+  let attrPlayers = null;
+  if (SCOPE.enabled) {
+    // 範囲外形式を除外し、属性クイズの対象を近畿選手に限定(顔↔名前は全選手)
+    types = types.filter((t) => !SCOPE_DISABLED_TYPES.includes(t));
+    attrPlayers = kinkiPlayers();
+  } else {
+    pool = quizState.region === "all" ? null : (p) => p.region === quizState.region;
+    if (pool) types = types.filter((t) => t !== "venueRegion");
+  }
+  if (!types.length) types = ["photo2name"];
+  const qs = buildSession(DB, { types, count: quizState.count, pool, attrPlayers });
   session = { qs, i: 0, correct: 0, answered: false };
   renderQuestion();
 }
@@ -265,57 +308,7 @@ function renderResult() {
   document.getElementById("toSetup").addEventListener("click", QuizSetup);
 }
 
-// ================= 単語帳 (1ページ全表示の学習カード) =================
-const cardState = { region: "all" };
-function Cards() {
-  const regions = ["all", ...DB.regions.map((r) => r.name)];
-  view.innerHTML = `
-    <span class="kicker">FLASHCARDS</span>
-    <h1 class="title" style="font-size:clamp(26px,5vw,42px)">単語帳</h1>
-    <p class="lead">全選手の要点を一覧でインプット。地区でしぼり込み。</p>
-    <div class="toolbar" id="cardTools" style="margin-top:16px">
-      ${regions.map((r) => `<button class="chip ${cardState.region === r ? "on red" : ""}" data-r="${r}">${r === "all" ? "全地区" : r}</button>`).join("")}
-    </div>
-    <div id="studyHost"></div>`;
-  view.querySelector("#cardTools").addEventListener("click", (e) => {
-    const b = e.target.closest("[data-r]"); if (!b) return;
-    cardState.region = b.dataset.r;
-    [...b.parentElement.children].forEach((c) => { const on = c === b; c.classList.toggle("on", on); c.classList.toggle("red", on); });
-    renderStudy();
-  });
-  renderStudy();
-}
-function renderStudy() {
-  const list = DB.players.filter((p) => cardState.region === "all" || p.region === cardState.region);
-  const fact = (k, v) => v != null && v !== "" ? `<dt>${k}</dt><dd>${esc(v)}</dd>` : "";
-  document.getElementById("studyHost").innerHTML = `
-    <p style="color:var(--ink-faint);font-size:13px;margin:14px 0 12px">${list.length} 名</p>
-    <div class="study-grid">
-      ${list.map((p) => `
-        <div class="card study">
-          <div class="ph">${imgTag(p)}</div>
-          <div class="body">
-            <div class="nm">${esc(p.name)}</div>
-            <div class="kana">${esc(p.name_kana || "")}</div>
-            <div class="meta">${tag("region", p.region)} ${tag("cls", p.class)} ${tag("gait", p.footwork_label)}</div>
-            <dl class="facts">
-              ${fact("出身", p.prefecture)}
-              ${fact("期別", p.period ? p.period + "期" : null)}
-              ${fact("ホーム", p.home_bank)}
-              ${fact("師匠", p.mentor)}
-              ${fact("得点", p.points)}
-              ${fact("登録", p.id)}
-            </dl>
-            <div class="lk">
-              <a href="${p.links.keirin_jp}" target="_blank" rel="noopener">KEIRIN.JP ↗</a>
-              <a href="${p.links.winticket}" target="_blank" rel="noopener">WINTICKET ↗</a>
-            </div>
-          </div>
-        </div>`).join("")}
-    </div>`;
-}
-
-// ================= 選手図鑑 =================
+// ================= 選手図鑑 (単語帳カードUI + 検索/地区/級班フィルタを統合) =================
 function Dex() {
   const regions = ["all", ...DB.regions.map((r) => r.name)];
   const classes = ["all", ...[...new Set(DB.players.map((p) => p.class))]];
@@ -335,19 +328,35 @@ function Dex() {
       (state.classFilter === "all" || p.class === state.classFilter) &&
       (!q || (p.name + p.name_kana).replace(/\s/g, "").includes(q.replace(/\s/g, ""))));
     const grid = document.getElementById("dexGrid");
-    grid.innerHTML = `<p style="color:var(--ink-faint);font-size:13px;margin-bottom:12px">${list.length} 名</p>
-      <div class="grid-players">${list.map(pcard).join("")}</div>`;
-    grid.querySelectorAll(".pcard").forEach((el) => el.addEventListener("click", () => openModal(el.dataset.id)));
+    grid.innerHTML = `<p style="color:var(--ink-faint);font-size:13px;margin:6px 0 12px">${list.length} 名</p>
+      <div class="study-grid">${list.map(studyCard).join("")}</div>`;
+    grid.querySelectorAll(".study").forEach((el) => el.addEventListener("click", (e) => {
+      if (e.target.closest("a")) return;  // 外部リンクのクリックはモーダルを開かない
+      openModal(el.dataset.id);
+    }));
   };
   view.querySelector("#search").addEventListener("input", (e) => { state.search = e.target.value; draw(); });
   view.querySelector("#rf").addEventListener("click", (e) => { const b = e.target.closest("[data-r]"); if (!b) return; state.regionFilter = b.dataset.r; [...b.parentElement.children].forEach((c) => c.classList.toggle("on", c === b)); draw(); });
   view.querySelector("#cf").addEventListener("click", (e) => { const b = e.target.closest("[data-c]"); if (!b) return; state.classFilter = b.dataset.c; [...b.parentElement.children].forEach((c) => c.classList.toggle("on", c === b)); draw(); });
   draw();
 }
-function pcard(p) {
-  return `<div class="card pcard" data-id="${p.id}">
-    <div class="ph"><span class="num">${esc(p.id)}</span>${imgTag(p)}
-      <div class="ov"><div class="nm">${esc(p.name)}</div><div class="meta">${tag("region", p.region)} ${tag("cls", p.class)}</div></div>
+function studyCard(p) {
+  const fact = (k, v) => v != null && v !== "" ? `<dt>${k}</dt><dd>${esc(v)}</dd>` : "";
+  return `<div class="card study" data-id="${p.id}" style="cursor:pointer">
+    <div class="ph">${imgTag(p)}</div>
+    <div class="body">
+      <div class="nm">${esc(p.name)}</div>
+      <div class="kana">${esc(p.name_kana || "")}</div>
+      <div class="meta">${tag("region", p.region)} ${tag("cls", p.class)} ${tag("gait", p.footwork_label)}</div>
+      <dl class="facts">
+        ${fact("出身", p.prefecture)}${fact("期別", p.period ? p.period + "期" : null)}
+        ${fact("ホーム", p.home_bank)}${fact("師匠", p.mentor)}
+        ${fact("得点", p.points)}${fact("登録", p.id)}
+      </dl>
+      <div class="lk">
+        <a href="${p.links.keirin_jp}" target="_blank" rel="noopener">KEIRIN.JP ↗</a>
+        <a href="${p.links.winticket}" target="_blank" rel="noopener">WINTICKET ↗</a>
+      </div>
     </div></div>`;
 }
 
@@ -378,11 +387,16 @@ function Velo() {
   view.innerHTML = `
     <span class="kicker">VELODROMES</span>
     <h1 class="title" style="font-size:clamp(26px,5vw,42px)">競輪場</h1>
-    <p class="lead">「場の理解」のリンク集。公式・コラム・所属選手一覧へ。</p>
+    <p class="lead">近畿の場の理解。所在地・バンク周長・特徴とリンク集。</p>
     <div class="velo-grid" style="margin-top:18px">
       ${DB.velodromes.map((v) => `
         <div class="card velo">
           <h3>${esc(v.name)}</h3>
+          <div class="velo-spec">
+            ${v.prefecture ? `<span class="tag region">${esc(v.prefecture)}</span>` : ""}
+            ${v.circumference_m ? `<span class="tag cls">周長 ${v.circumference_m}m</span>` : ""}
+          </div>
+          ${v.feature ? `<p class="velo-feat">${esc(v.feature)}</p>` : ""}
           ${link("WINTICKET 場ページ", v.wt_page)}
           ${link("コラム 深掘り！競輪場！", v.wt_column)}
           ${link("公式サイト", v.official_site)}

@@ -291,7 +291,9 @@ h1.title { font-size: clamp(30px, 6vw, 54px); line-height: 1.12; letter-spacing:
 
 .velo-grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap:14px; }
 .velo { padding: 20px; }
-.velo h3 { font-family: var(--font-display); font-size: 20px; margin-bottom: 12px; }
+.velo h3 { font-family: var(--font-display); font-size: 20px; margin-bottom: 10px; }
+.velo-spec { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+.velo-feat { color: var(--ink-dim); font-size: 12.5px; line-height: 1.7; margin-bottom: 12px; max-height: 7.5em; overflow: hidden; }
 .velo a { display:flex; justify-content:space-between; gap:8px; padding: 9px 0; border-top:1px solid var(--line); color: var(--ink-dim); text-decoration:none; font-size:13px; transition:.15s; }
 .velo a:hover { color: var(--cyan); }
 .velo a span { color: var(--ink-faint); }
