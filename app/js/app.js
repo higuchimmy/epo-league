@@ -1,5 +1,5 @@
 // app.js — 画面制御 (依存なし / ESモジュール)
-import { QUIZ_TYPES, buildSession, generateQuestion } from "./quiz.js?v=15";
+import { QUIZ_TYPES, buildSession, generateQuestion } from "./quiz.js?v=17";
 
 const DATA_BASE = "../data/master/";
 const photoUrl = (p) => DATA_BASE + p.photo;
@@ -34,8 +34,8 @@ const state = { regionFilter: "all", classFilter: "all", search: "" };
 const SCOPE = { enabled: true, region: "近畿" };
 // 範囲外として無効化する出題形式
 const SCOPE_DISABLED_TYPES = ["raceCar", "video", "venueRegion"];
-// 範囲外として無効化する画面
-const SCOPE_DISABLED_NAV = ["races"];
+// 範囲外として無効化する画面(レース閲覧は許可。映像/出走表クイズは SCOPE_DISABLED_TYPES 側で無効)
+const SCOPE_DISABLED_NAV = [];
 const kinkiPlayers = () => DB.players.filter((p) => p.region === SCOPE.region);
 // スコープ有効時に使える出題形式(範囲外を除外)
 const scopedQuizTypes = () => SCOPE.enabled
@@ -464,6 +464,7 @@ function openModal(id) {
         </div>
         <div class="bd">
           ${playerKV(p)}
+          ${pickupRacesHTML(p)}
           <div class="links">
             <a class="btn ghost" href="${p.links.keirin_jp}" target="_blank" rel="noopener">KEIRIN.JP ↗</a>
             <a class="btn ghost" href="${p.links.winticket}" target="_blank" rel="noopener">WINTICKET ↗</a>
@@ -474,6 +475,18 @@ function openModal(id) {
   const close = () => (modalRoot.innerHTML = "");
   document.getElementById("mx").addEventListener("click", close);
   document.getElementById("modal").addEventListener("click", (e) => { if (e.target.id === "modal") close(); });
+}
+
+function pickupRacesHTML(p) {
+  const rs = p.pickup_races || [];
+  if (!rs.length) return "";
+  return `<div class="pickup">
+    <div class="pickup-h">レース映像ピックアップ <span class="tag region">${rs.length}</span></div>
+    ${rs.map((r) => `<a class="pickup-item" href="${r.url}" target="_blank" rel="noopener">
+      <span class="pi-main">${esc(r.venue)} ${esc(r.event || "")}${r.video ? ' <span class="tag gait">▶映像</span>' : ""}</span>
+      <span class="pi-sub">${r.date || ""}${r.race_no ? " ・ " + r.race_no + "R" : ""}${r.race_type ? " ・ " + esc(r.race_type) : ""} ↗</span>
+    </a>`).join("")}
+  </div>`;
 }
 
 // ---------- 共通レンダ ----------

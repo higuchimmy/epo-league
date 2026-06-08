@@ -32,7 +32,36 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=013162",
       "winticket": "https://www.winticket.jp/keirin/cyclist/013162"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "取手",
+        "date": "2026-03-14",
+        "race_no": 11,
+        "event": "ワールドサイクリスト支援競輪",
+        "race_type": "準決勝",
+        "url": "https://www.winticket.jp/keirin/toride/raceresult/2026031223/3/11",
+        "video": null
+      },
+      {
+        "venue": "伊東",
+        "date": "2026-04-04",
+        "race_no": 11,
+        "event": "椿賞争奪戦",
+        "race_type": "準決勝",
+        "url": "https://www.winticket.jp/keirin/ito/raceresult/2026040237/3/11",
+        "video": null
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-01",
+        "race_no": 10,
+        "event": "日本選手権競輪",
+        "race_type": "一予選",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/1/10",
+        "video": "https://vod.winticket.live/race/15prMAPtJycmdJyo6qVuf5/index.m3u8"
+      }
+    ]
   },
   {
     "id": "013673",
@@ -67,7 +96,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=013673",
       "winticket": "https://www.winticket.jp/keirin/cyclist/013673"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "013904",
@@ -102,7 +132,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=013904",
       "winticket": "https://www.winticket.jp/keirin/cyclist/013904"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "013917",
@@ -137,7 +168,18 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=013917",
       "winticket": "https://www.winticket.jp/keirin/cyclist/013917"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "函館",
+        "date": "2026-05-17",
+        "race_no": 11,
+        "event": "五稜郭杯争奪戦",
+        "race_type": "特秀",
+        "url": "https://www.winticket.jp/keirin/hakodate/raceresult/2026051411/4/11",
+        "video": null
+      }
+    ]
   },
   {
     "id": "013920",
@@ -172,7 +214,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=013920",
       "winticket": "https://www.winticket.jp/keirin/cyclist/013920"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014002",
@@ -207,7 +250,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014002",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014002"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014054",
@@ -242,7 +286,18 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014054",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014054"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "熊本",
+        "date": "2026-02-22",
+        "race_no": 7,
+        "event": "読売新聞社杯全日本選抜競輪",
+        "race_type": "特選",
+        "url": "https://www.winticket.jp/keirin/kumamoto/raceresult/2026022087/3/7",
+        "video": null
+      }
+    ]
   },
   {
     "id": "014129",
@@ -277,7 +332,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014129",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014129"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "熊本",
+        "date": "2026-02-23",
+        "race_no": 11,
+        "event": "読売新聞社杯全日本選抜競輪",
+        "race_type": "特秀",
+        "url": "https://www.winticket.jp/keirin/kumamoto/raceresult/2026022087/4/11",
+        "video": null
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-06",
+        "race_no": 11,
+        "event": "日本選手権競輪",
+        "race_type": "決勝",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/6/11",
+        "video": "https://vod.winticket.live/race/uC4ufrqAkE1XWi9tXbUzSM/index.m3u8"
+      }
+    ]
   },
   {
     "id": "014210",
@@ -312,7 +387,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014210",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014210"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014501",
@@ -347,7 +423,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014501",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014501"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014794",
@@ -382,7 +459,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014794",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014794"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015034",
@@ -417,7 +495,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015034",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015034"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "平塚",
+        "date": "2026-05-05",
+        "race_no": 8,
+        "event": "日本選手権競輪",
+        "race_type": "特選一",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/5/8",
+        "video": "https://vod.winticket.live/race/knywxyQNSuDPA9fixnR1Ze/index.m3u8"
+      },
+      {
+        "venue": "函館",
+        "date": "2026-05-15",
+        "race_no": 11,
+        "event": "五稜郭杯争奪戦",
+        "race_type": "二予選",
+        "url": "https://www.winticket.jp/keirin/hakodate/raceresult/2026051411/2/11",
+        "video": null
+      }
+    ]
   },
   {
     "id": "015035",
@@ -452,7 +550,18 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015035",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015035"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "豊橋",
+        "date": "2026-03-30",
+        "race_no": 12,
+        "event": "開設７６周年記念ちぎり賞争奪戦",
+        "race_type": "準決勝",
+        "url": "https://www.winticket.jp/keirin/toyohashi/raceresult/2026032845/3/12",
+        "video": null
+      }
+    ]
   },
   {
     "id": "015086",
@@ -487,7 +596,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015086",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015086"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015324",
@@ -522,7 +632,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015324",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015324"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015596",
@@ -557,7 +668,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015596",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015596"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "熊本",
+        "date": "2026-02-22",
+        "race_no": 8,
+        "event": "読売新聞社杯全日本選抜競輪",
+        "race_type": "特選",
+        "url": "https://www.winticket.jp/keirin/kumamoto/raceresult/2026022087/3/8",
+        "video": null
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-01",
+        "race_no": 10,
+        "event": "日本選手権競輪",
+        "race_type": "一予選",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/1/10",
+        "video": "https://vod.winticket.live/race/15prMAPtJycmdJyo6qVuf5/index.m3u8"
+      }
+    ]
   },
   {
     "id": "013249",
@@ -592,7 +723,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=013249",
       "winticket": "https://www.winticket.jp/keirin/cyclist/013249"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014055",
@@ -627,7 +759,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014055",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014055"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014140",
@@ -662,7 +795,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014140",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014140"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014152",
@@ -697,7 +831,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014152",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014152"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014505",
@@ -732,7 +867,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014505",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014505"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014507",
@@ -767,7 +903,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014507",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014507"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014659",
@@ -802,7 +939,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014659",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014659"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014809",
@@ -837,7 +975,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014809",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014809"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014860",
@@ -872,7 +1011,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014860",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014860"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015037",
@@ -907,7 +1047,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015037",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015037"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015039",
@@ -942,7 +1083,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015039",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015039"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "西武園",
+        "date": "2026-04-12",
+        "race_no": 12,
+        "event": "第１回平原康多カップ",
+        "race_type": "決勝",
+        "url": "https://www.winticket.jp/keirin/seibuen/raceresult/2026040926/4/12",
+        "video": null
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-02",
+        "race_no": 11,
+        "event": "日本選手権競輪",
+        "race_type": "特選予",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/2/11",
+        "video": "https://vod.winticket.live/race/9NDxBPh3PYUvdAR6Fvo1dT/index.m3u8"
+      }
+    ]
   },
   {
     "id": "015090",
@@ -977,7 +1138,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015090",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015090"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015242",
@@ -1012,7 +1174,18 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015242",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015242"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "西武園",
+        "date": "2026-04-12",
+        "race_no": 12,
+        "event": "第１回平原康多カップ",
+        "race_type": "決勝",
+        "url": "https://www.winticket.jp/keirin/seibuen/raceresult/2026040926/4/12",
+        "video": null
+      }
+    ]
   },
   {
     "id": "015243",
@@ -1047,7 +1220,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015243",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015243"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015248",
@@ -1082,7 +1256,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015248",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015248"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "松山",
+        "date": "2026-03-07",
+        "race_no": 11,
+        "event": "開設７６周年記念金亀杯争覇戦",
+        "race_type": "準決勝",
+        "url": "https://www.winticket.jp/keirin/matsuyama/raceresult/2026030575/3/11",
+        "video": null
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-06",
+        "race_no": 1,
+        "event": "日本選手権競輪",
+        "race_type": "選抜",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/6/1",
+        "video": "https://vod.winticket.live/race/gqkEz4ZNG9XhcFKRzuv895/index.m3u8"
+      }
+    ]
   },
   {
     "id": "015337",
@@ -1117,7 +1311,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015337",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015337"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015341",
@@ -1152,7 +1347,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015341",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015341"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015343",
@@ -1187,7 +1383,36 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015343",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015343"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "武雄",
+        "date": "2026-04-18",
+        "race_no": 7,
+        "event": "武雄市制２０周年大楠賞争奪戦",
+        "race_type": "一予選",
+        "url": "https://www.winticket.jp/keirin/takeo/raceresult/2026041884/1/7",
+        "video": null
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-01",
+        "race_no": 9,
+        "event": "日本選手権競輪",
+        "race_type": "一予選",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/1/9",
+        "video": "https://vod.winticket.live/race/hZdruXtdpGVQ42YYnZHPeY/index.m3u8"
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-03",
+        "race_no": 9,
+        "event": "日本選手権競輪",
+        "race_type": "二予選",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/3/9",
+        "video": "https://vod.winticket.live/race/tAZMrzSWwVSuAAt52wXNcF/index.m3u8"
+      }
+    ]
   },
   {
     "id": "015356",
@@ -1222,7 +1447,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015356",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015356"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015412",
@@ -1257,7 +1483,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015412",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015412"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015431",
@@ -1292,7 +1519,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015431",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015431"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015518",
@@ -1327,7 +1555,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015518",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015518"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014377",
@@ -1362,7 +1591,36 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014377",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014377"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "西武園",
+        "date": "2026-03-12",
+        "race_no": 12,
+        "event": "ブルーウイングナイトレース",
+        "race_type": "初特選",
+        "url": "https://www.winticket.jp/keirin/seibuen/raceresult/2026031226/1/12",
+        "video": null
+      },
+      {
+        "venue": "西武園",
+        "date": "2026-03-14",
+        "race_no": 10,
+        "event": "ブルーウイングナイトレース",
+        "race_type": "準決勝",
+        "url": "https://www.winticket.jp/keirin/seibuen/raceresult/2026031226/3/10",
+        "video": null
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-06",
+        "race_no": 8,
+        "event": "日本選手権競輪",
+        "race_type": "優秀",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/6/8",
+        "video": "https://vod.winticket.live/race/tPewRJY4Qcpb4jqPiwd5u5/index.m3u8"
+      }
+    ]
   },
   {
     "id": "014380",
@@ -1397,7 +1655,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014380",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014380"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014462",
@@ -1432,7 +1691,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014462",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014462"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014524",
@@ -1467,7 +1727,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014524",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014524"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014534",
@@ -1502,7 +1763,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014534",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014534"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "静岡",
+        "date": "2026-02-14",
+        "race_no": 10,
+        "event": "たちあおい賞争奪戦",
+        "race_type": "準決勝",
+        "url": "https://www.winticket.jp/keirin/shizuoka/raceresult/2026021238/3/10",
+        "video": null
+      },
+      {
+        "venue": "防府",
+        "date": "2026-03-22",
+        "race_no": 12,
+        "event": "ウィナーズカップ",
+        "race_type": "決勝",
+        "url": "https://www.winticket.jp/keirin/hofu/raceresult/2026031963/4/12",
+        "video": null
+      }
+    ]
   },
   {
     "id": "014741",
@@ -1537,7 +1818,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014741",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014741"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "防府",
+        "date": "2026-03-19",
+        "race_no": 12,
+        "event": "ウィナーズカップ",
+        "race_type": "特選予",
+        "url": "https://www.winticket.jp/keirin/hofu/raceresult/2026031963/1/12",
+        "video": null
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-01",
+        "race_no": 11,
+        "event": "日本選手権競輪",
+        "race_type": "特選予",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/1/11",
+        "video": "https://vod.winticket.live/race/obG1kj9SNbv1SG6Jb8FLBZ/index.m3u8"
+      }
+    ]
   },
   {
     "id": "014744",
@@ -1572,7 +1873,18 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014744",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014744"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "豊橋",
+        "date": "2026-03-28",
+        "race_no": 11,
+        "event": "開設７６周年記念ちぎり賞争奪戦",
+        "race_type": "一予選",
+        "url": "https://www.winticket.jp/keirin/toyohashi/raceresult/2026032845/1/11",
+        "video": null
+      }
+    ]
   },
   {
     "id": "014935",
@@ -1607,7 +1919,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014935",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014935"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015051",
@@ -1642,7 +1955,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015051",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015051"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015094",
@@ -1677,7 +1991,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015094",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015094"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015261",
@@ -1712,7 +2027,18 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015261",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015261"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "豊橋",
+        "date": "2026-03-28",
+        "race_no": 11,
+        "event": "開設７６周年記念ちぎり賞争奪戦",
+        "race_type": "一予選",
+        "url": "https://www.winticket.jp/keirin/toyohashi/raceresult/2026032845/1/11",
+        "video": null
+      }
+    ]
   },
   {
     "id": "015436",
@@ -1747,7 +2073,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015436",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015436"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015439",
@@ -1782,7 +2109,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015439",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015439"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "平塚",
+        "date": "2026-05-02",
+        "race_no": 8,
+        "event": "日本選手権競輪",
+        "race_type": "一予選",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/2/8",
+        "video": "https://vod.winticket.live/race/kNFLYqGNht5RyGHpByjWLw/index.m3u8"
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-05",
+        "race_no": 6,
+        "event": "日本選手権競輪",
+        "race_type": "特選二",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/5/6",
+        "video": "https://vod.winticket.live/race/2PZkayCPzeDdzTg5213Txz/index.m3u8"
+      }
+    ]
   },
   {
     "id": "015444",
@@ -1817,7 +2164,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015444",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015444"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014029",
@@ -1852,7 +2200,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014029",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014029"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014089",
@@ -1887,7 +2236,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014089",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014089"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "西武園",
+        "date": "2026-04-10",
+        "race_no": 7,
+        "event": "第１回平原康多カップ",
+        "race_type": "二予選",
+        "url": "https://www.winticket.jp/keirin/seibuen/raceresult/2026040926/2/7",
+        "video": null
+      },
+      {
+        "venue": "武雄",
+        "date": "2026-04-20",
+        "race_no": 11,
+        "event": "武雄市制２０周年大楠賞争奪戦",
+        "race_type": "準決勝",
+        "url": "https://www.winticket.jp/keirin/takeo/raceresult/2026041884/3/11",
+        "video": null
+      }
+    ]
   },
   {
     "id": "014996",
@@ -1922,7 +2291,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014996",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014996"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015179",
@@ -1957,7 +2327,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015179",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015179"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015451",
@@ -1992,7 +2363,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015451",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015451"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "平塚",
+        "date": "2025-12-30",
+        "race_no": 10,
+        "event": "ＫＥＩＲＩＮグランプリ２０２５",
+        "race_type": "決勝",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2025122835/3/10",
+        "video": "https://vod.winticket.live/race/quFgxGeUgRdy88dNHGxwRj/index.m3u8"
+      },
+      {
+        "venue": "函館",
+        "date": "2026-05-17",
+        "race_no": 9,
+        "event": "五稜郭杯争奪戦",
+        "race_type": "特選",
+        "url": "https://www.winticket.jp/keirin/hakodate/raceresult/2026051411/4/9",
+        "video": null
+      }
+    ]
   },
   {
     "id": "015537",
@@ -2027,7 +2418,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015537",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015537"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "豊橋",
+        "date": "2026-03-28",
+        "race_no": 10,
+        "event": "開設７６周年記念ちぎり賞争奪戦",
+        "race_type": "一予選",
+        "url": "https://www.winticket.jp/keirin/toyohashi/raceresult/2026032845/1/10",
+        "video": null
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-05",
+        "race_no": 5,
+        "event": "日本選手権競輪",
+        "race_type": "特選二",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/5/5",
+        "video": "https://vod.winticket.live/race/a23skmDFUVhfjhwtQo3QLT/index.m3u8"
+      }
+    ]
   },
   {
     "id": "013730",
@@ -2062,7 +2473,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=013730",
       "winticket": "https://www.winticket.jp/keirin/cyclist/013730"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "013791",
@@ -2097,7 +2509,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=013791",
       "winticket": "https://www.winticket.jp/keirin/cyclist/013791"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "013962",
@@ -2132,7 +2545,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=013962",
       "winticket": "https://www.winticket.jp/keirin/cyclist/013962"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "熊本",
+        "date": "2026-02-23",
+        "race_no": 10,
+        "event": "読売新聞社杯全日本選抜競輪",
+        "race_type": "特秀",
+        "url": "https://www.winticket.jp/keirin/kumamoto/raceresult/2026022087/4/10",
+        "video": null
+      },
+      {
+        "venue": "松山",
+        "date": "2026-03-05",
+        "race_no": 12,
+        "event": "開設７６周年記念金亀杯争覇戦",
+        "race_type": "初特選",
+        "url": "https://www.winticket.jp/keirin/matsuyama/raceresult/2026030575/1/12",
+        "video": null
+      }
+    ]
   },
   {
     "id": "014252",
@@ -2167,7 +2600,36 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014252",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014252"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "奈良",
+        "date": "2026-02-06",
+        "race_no": 9,
+        "event": "春日賞争覇戦",
+        "race_type": "二予選",
+        "url": "https://www.winticket.jp/keirin/nara/raceresult/2026020553/2/9",
+        "video": null
+      },
+      {
+        "venue": "熊本",
+        "date": "2026-02-22",
+        "race_no": 11,
+        "event": "読売新聞社杯全日本選抜競輪",
+        "race_type": "準決勝",
+        "url": "https://www.winticket.jp/keirin/kumamoto/raceresult/2026022087/3/11",
+        "video": null
+      },
+      {
+        "venue": "函館",
+        "date": "2026-05-17",
+        "race_no": 7,
+        "event": "五稜郭杯争奪戦",
+        "race_type": "特選",
+        "url": "https://www.winticket.jp/keirin/hakodate/raceresult/2026051411/4/7",
+        "video": null
+      }
+    ]
   },
   {
     "id": "014317",
@@ -2202,7 +2664,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014317",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014317"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014318",
@@ -2237,7 +2700,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014318",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014318"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014396",
@@ -2272,7 +2736,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014396",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014396"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "熊本",
+        "date": "2026-02-20",
+        "race_no": 10,
+        "event": "読売新聞社杯全日本選抜競輪",
+        "race_type": "特選予",
+        "url": "https://www.winticket.jp/keirin/kumamoto/raceresult/2026022087/1/10",
+        "video": null
+      },
+      {
+        "venue": "熊本",
+        "date": "2026-02-23",
+        "race_no": 12,
+        "event": "読売新聞社杯全日本選抜競輪",
+        "race_type": "決勝",
+        "url": "https://www.winticket.jp/keirin/kumamoto/raceresult/2026022087/4/12",
+        "video": null
+      }
+    ]
   },
   {
     "id": "014545",
@@ -2307,7 +2791,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014545",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014545"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014838",
@@ -2342,7 +2827,36 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014838",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014838"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "平塚",
+        "date": "2026-05-04",
+        "race_no": 11,
+        "event": "日本選手権競輪",
+        "race_type": "ＧＤＲ",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/4/11",
+        "video": "https://vod.winticket.live/race/cUbaDnjYxgRCG3JffuCsDg/index.m3u8"
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-05",
+        "race_no": 9,
+        "event": "日本選手権競輪",
+        "race_type": "準決勝",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/5/9",
+        "video": "https://vod.winticket.live/race/aH44bMtjnx3tseDfDnfejV/index.m3u8"
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-06",
+        "race_no": 11,
+        "event": "日本選手権競輪",
+        "race_type": "決勝",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/6/11",
+        "video": "https://vod.winticket.live/race/uC4ufrqAkE1XWi9tXbUzSM/index.m3u8"
+      }
+    ]
   },
   {
     "id": "014873",
@@ -2377,7 +2891,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014873",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014873"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "奈良",
+        "date": "2026-02-06",
+        "race_no": 10,
+        "event": "春日賞争覇戦",
+        "race_type": "二予選",
+        "url": "https://www.winticket.jp/keirin/nara/raceresult/2026020553/2/10",
+        "video": null
+      },
+      {
+        "venue": "防府",
+        "date": "2026-03-22",
+        "race_no": 3,
+        "event": "ウィナーズカップ",
+        "race_type": "選抜",
+        "url": "https://www.winticket.jp/keirin/hofu/raceresult/2026031963/4/3",
+        "video": null
+      }
+    ]
   },
   {
     "id": "015272",
@@ -2412,7 +2946,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015272",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015272"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015413",
@@ -2447,7 +2982,18 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015413",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015413"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "熊本",
+        "date": "2026-02-22",
+        "race_no": 11,
+        "event": "読売新聞社杯全日本選抜競輪",
+        "race_type": "準決勝",
+        "url": "https://www.winticket.jp/keirin/kumamoto/raceresult/2026022087/3/11",
+        "video": null
+      }
+    ]
   },
   {
     "id": "013355",
@@ -2482,7 +3028,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=013355",
       "winticket": "https://www.winticket.jp/keirin/cyclist/013355"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "013880",
@@ -2517,7 +3064,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=013880",
       "winticket": "https://www.winticket.jp/keirin/cyclist/013880"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "013963",
@@ -2552,7 +3100,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=013963",
       "winticket": "https://www.winticket.jp/keirin/cyclist/013963"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014484",
@@ -2587,7 +3136,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014484",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014484"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "武雄",
+        "date": "2026-04-18",
+        "race_no": 9,
+        "event": "武雄市制２０周年大楠賞争奪戦",
+        "race_type": "一予選",
+        "url": "https://www.winticket.jp/keirin/takeo/raceresult/2026041884/1/9",
+        "video": null
+      },
+      {
+        "venue": "武雄",
+        "date": "2026-04-21",
+        "race_no": 8,
+        "event": "武雄市制２０周年大楠賞争奪戦",
+        "race_type": "特選",
+        "url": "https://www.winticket.jp/keirin/takeo/raceresult/2026041884/4/8",
+        "video": null
+      }
+    ]
   },
   {
     "id": "014681",
@@ -2622,7 +3191,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014681",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014681"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "函館",
+        "date": "2026-05-15",
+        "race_no": 9,
+        "event": "五稜郭杯争奪戦",
+        "race_type": "二予選",
+        "url": "https://www.winticket.jp/keirin/hakodate/raceresult/2026051411/2/9",
+        "video": null
+      },
+      {
+        "venue": "函館",
+        "date": "2026-05-16",
+        "race_no": 10,
+        "event": "五稜郭杯争奪戦",
+        "race_type": "準決勝",
+        "url": "https://www.winticket.jp/keirin/hakodate/raceresult/2026051411/3/10",
+        "video": null
+      }
+    ]
   },
   {
     "id": "015009",
@@ -2657,7 +3246,18 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015009",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015009"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "防府",
+        "date": "2026-03-20",
+        "race_no": 8,
+        "event": "ウィナーズカップ",
+        "race_type": "二予選",
+        "url": "https://www.winticket.jp/keirin/hofu/raceresult/2026031963/2/8",
+        "video": null
+      }
+    ]
   },
   {
     "id": "015061",
@@ -2692,7 +3292,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015061",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015061"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "西武園",
+        "date": "2026-03-14",
+        "race_no": 11,
+        "event": "ブルーウイングナイトレース",
+        "race_type": "準決勝",
+        "url": "https://www.winticket.jp/keirin/seibuen/raceresult/2026031226/3/11",
+        "video": null
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-05",
+        "race_no": 10,
+        "event": "日本選手権競輪",
+        "race_type": "準決勝",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/5/10",
+        "video": "https://vod.winticket.live/race/ead3dAPJJUirEzy36pmNkn/index.m3u8"
+      }
+    ]
   },
   {
     "id": "015464",
@@ -2727,7 +3347,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015464",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015464"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015597",
@@ -2762,7 +3383,36 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015597",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015597"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "熊本",
+        "date": "2026-02-21",
+        "race_no": 7,
+        "event": "読売新聞社杯全日本選抜競輪",
+        "race_type": "二予選",
+        "url": "https://www.winticket.jp/keirin/kumamoto/raceresult/2026022087/2/7",
+        "video": null
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-04",
+        "race_no": 9,
+        "event": "日本選手権競輪",
+        "race_type": "二予選",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/4/9",
+        "video": "https://vod.winticket.live/race/fQSMGppoh1Sb4qX1uNk8af/index.m3u8"
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-06",
+        "race_no": 10,
+        "event": "日本選手権競輪",
+        "race_type": "順位決",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/6/10",
+        "video": "https://vod.winticket.live/race/iL7U7Vn93BuKZaBkCy9GUi/index.m3u8"
+      }
+    ]
   },
   {
     "id": "015731",
@@ -2797,7 +3447,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015731",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015731"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "013059",
@@ -2832,7 +3483,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=013059",
       "winticket": "https://www.winticket.jp/keirin/cyclist/013059"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "013140",
@@ -2867,7 +3519,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=013140",
       "winticket": "https://www.winticket.jp/keirin/cyclist/013140"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "西武園",
+        "date": "2026-03-14",
+        "race_no": 11,
+        "event": "ブルーウイングナイトレース",
+        "race_type": "準決勝",
+        "url": "https://www.winticket.jp/keirin/seibuen/raceresult/2026031226/3/11",
+        "video": null
+      },
+      {
+        "venue": "武雄",
+        "date": "2026-04-21",
+        "race_no": 8,
+        "event": "武雄市制２０周年大楠賞争奪戦",
+        "race_type": "特選",
+        "url": "https://www.winticket.jp/keirin/takeo/raceresult/2026041884/4/8",
+        "video": null
+      }
+    ]
   },
   {
     "id": "014038",
@@ -2902,7 +3574,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014038",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014038"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014554",
@@ -2937,7 +3610,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014554",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014554"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015125",
@@ -2972,7 +3646,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015125",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015125"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015203",
@@ -3007,7 +3682,18 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015203",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015203"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "松山",
+        "date": "2026-03-08",
+        "race_no": 12,
+        "event": "開設７６周年記念金亀杯争覇戦",
+        "race_type": "決勝",
+        "url": "https://www.winticket.jp/keirin/matsuyama/raceresult/2026030575/4/12",
+        "video": null
+      }
+    ]
   },
   {
     "id": "015465",
@@ -3042,7 +3728,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015465",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015465"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "平塚",
+        "date": "2026-05-01",
+        "race_no": 8,
+        "event": "日本選手権競輪",
+        "race_type": "一予選",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/1/8",
+        "video": "https://vod.winticket.live/race/txz7PociQu3LfEru4XvQZj/index.m3u8"
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-03",
+        "race_no": 7,
+        "event": "日本選手権競輪",
+        "race_type": "二予選",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/3/7",
+        "video": "https://vod.winticket.live/race/gRGXrg6CzRT2ZF1ZU44zow/index.m3u8"
+      }
+    ]
   },
   {
     "id": "015553",
@@ -3077,7 +3783,36 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015553",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015553"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "平塚",
+        "date": "2026-05-06",
+        "race_no": 6,
+        "event": "日本選手権競輪",
+        "race_type": "特選一",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/6/6",
+        "video": "https://vod.winticket.live/race/bE2NQPTuR7Ghqka77GzuX1/index.m3u8"
+      },
+      {
+        "venue": "函館",
+        "date": "2026-05-15",
+        "race_no": 7,
+        "event": "五稜郭杯争奪戦",
+        "race_type": "二予選",
+        "url": "https://www.winticket.jp/keirin/hakodate/raceresult/2026051411/2/7",
+        "video": null
+      },
+      {
+        "venue": "函館",
+        "date": "2026-05-17",
+        "race_no": 12,
+        "event": "五稜郭杯争奪戦",
+        "race_type": "決勝",
+        "url": "https://www.winticket.jp/keirin/hakodate/raceresult/2026051411/4/12",
+        "video": null
+      }
+    ]
   },
   {
     "id": "013516",
@@ -3112,7 +3847,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=013516",
       "winticket": "https://www.winticket.jp/keirin/cyclist/013516"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "防府",
+        "date": "2026-03-22",
+        "race_no": 8,
+        "event": "ウィナーズカップ",
+        "race_type": "特選",
+        "url": "https://www.winticket.jp/keirin/hofu/raceresult/2026031963/4/8",
+        "video": null
+      },
+      {
+        "venue": "伊東",
+        "date": "2026-04-03",
+        "race_no": 7,
+        "event": "椿賞争奪戦",
+        "race_type": "二予選",
+        "url": "https://www.winticket.jp/keirin/ito/raceresult/2026040237/2/7",
+        "video": null
+      }
+    ]
   },
   {
     "id": "013894",
@@ -3147,7 +3902,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=013894",
       "winticket": "https://www.winticket.jp/keirin/cyclist/013894"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014047",
@@ -3182,7 +3938,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014047",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014047"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014112",
@@ -3217,7 +3974,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014112",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014112"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "014113",
@@ -3252,7 +4010,36 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014113",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014113"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "豊橋",
+        "date": "2026-03-29",
+        "race_no": 8,
+        "event": "開設７６周年記念ちぎり賞争奪戦",
+        "race_type": "二予選",
+        "url": "https://www.winticket.jp/keirin/toyohashi/raceresult/2026032845/2/8",
+        "video": null
+      },
+      {
+        "venue": "豊橋",
+        "date": "2026-03-31",
+        "race_no": 8,
+        "event": "開設７６周年記念ちぎり賞争奪戦",
+        "race_type": "特選",
+        "url": "https://www.winticket.jp/keirin/toyohashi/raceresult/2026032845/4/8",
+        "video": null
+      },
+      {
+        "venue": "青森",
+        "date": "2026-05-20",
+        "race_no": 8,
+        "event": "オッズパーク杯ミッドナイトＧ３",
+        "race_type": "準決勝",
+        "url": "https://www.winticket.jp/keirin/aomori/raceresult/2026051912/2/8",
+        "video": null
+      }
+    ]
   },
   {
     "id": "014417",
@@ -3287,7 +4074,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014417",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014417"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "防府",
+        "date": "2026-03-22",
+        "race_no": 6,
+        "event": "ウィナーズカップ",
+        "race_type": "特選",
+        "url": "https://www.winticket.jp/keirin/hofu/raceresult/2026031963/4/6",
+        "video": null
+      },
+      {
+        "venue": "武雄",
+        "date": "2026-04-18",
+        "race_no": 12,
+        "event": "武雄市制２０周年大楠賞争奪戦",
+        "race_type": "初特選",
+        "url": "https://www.winticket.jp/keirin/takeo/raceresult/2026041884/1/12",
+        "video": null
+      }
+    ]
   },
   {
     "id": "014564",
@@ -3322,7 +4129,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014564",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014564"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015213",
@@ -3357,7 +4165,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015213",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015213"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "平塚",
+        "date": "2026-05-01",
+        "race_no": 1,
+        "event": "日本選手権競輪",
+        "race_type": "一予選",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/1/1",
+        "video": "https://vod.winticket.live/race/5D96E7uR4Jm88Y1Unp7z7g/index.m3u8"
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-03",
+        "race_no": 8,
+        "event": "日本選手権競輪",
+        "race_type": "二予選",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/3/8",
+        "video": "https://vod.winticket.live/race/ruSwAjAUN5EEZC1mZTsHcG/index.m3u8"
+      }
+    ]
   },
   {
     "id": "015297",
@@ -3392,7 +4220,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015297",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015297"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015298",
@@ -3427,7 +4256,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015298",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015298"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "平塚",
+        "date": "2026-05-06",
+        "race_no": 7,
+        "event": "日本選手権競輪",
+        "race_type": "特選一",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/6/7",
+        "video": "https://vod.winticket.live/race/dyTxkBme6htN59Z3uiKb9z/index.m3u8"
+      },
+      {
+        "venue": "函館",
+        "date": "2026-05-15",
+        "race_no": 12,
+        "event": "五稜郭杯争奪戦",
+        "race_type": "二予選",
+        "url": "https://www.winticket.jp/keirin/hakodate/raceresult/2026051411/2/12",
+        "video": null
+      }
+    ]
   },
   {
     "id": "015474",
@@ -3462,7 +4311,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015474",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015474"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015475",
@@ -3497,7 +4347,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015475",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015475"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015479",
@@ -3532,7 +4383,8 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015479",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015479"
-    }
+    },
+    "pickup_races": []
   },
   {
     "id": "015649",
@@ -3567,7 +4419,27 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015649",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015649"
-    }
+    },
+    "pickup_races": [
+      {
+        "venue": "豊橋",
+        "date": "2026-03-28",
+        "race_no": 9,
+        "event": "開設７６周年記念ちぎり賞争奪戦",
+        "race_type": "一予選",
+        "url": "https://www.winticket.jp/keirin/toyohashi/raceresult/2026032845/1/9",
+        "video": null
+      },
+      {
+        "venue": "平塚",
+        "date": "2026-05-04",
+        "race_no": 4,
+        "event": "日本選手権競輪",
+        "race_type": "一般二",
+        "url": "https://www.winticket.jp/keirin/hiratsuka/raceresult/2026050135/4/4",
+        "video": "https://vod.winticket.live/race/rji4zamh7tqKrjXrWuZH8n/index.m3u8"
+      }
+    ]
   },
   {
     "id": "015661",
@@ -3602,6 +4474,7 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015661",
       "winticket": "https://www.winticket.jp/keirin/cyclist/015661"
-    }
+    },
+    "pickup_races": []
   }
 ]

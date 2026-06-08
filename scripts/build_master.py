@@ -9,6 +9,7 @@
 - quiz_templates.json : 出題形式ひな型 (9)
 - master.json      : 上記を束ねた1ファイル
 """
+import collections
 import json
 import re
 from pathlib import Path
@@ -142,6 +143,15 @@ def main() -> None:
             "featured": r.get("featured", []),
             "entries": r.get("entries", []),
         })
+
+    # --- 選手単位レース映像ピックアップ (各レースのfeatured選手から逆引きして選手に紐付け) ---
+    pid_races = collections.defaultdict(list)
+    for r in races:
+        summary = {k: r[k] for k in ("venue", "date", "race_no", "event", "race_type", "url", "video")}
+        for pid in r.get("featured", []):
+            pid_races[pid].append(summary)
+    for p in players:
+        p["pickup_races"] = sorted(pid_races.get(p["id"], []), key=lambda x: x.get("date") or "")
 
     # --- quiz templates ---
     quiz = figma["quiz_templates"]
