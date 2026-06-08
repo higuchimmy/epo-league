@@ -33,7 +33,7 @@ def parse_keirin_html(h: str) -> dict:
 
     # --- 行ペアで取れない項目を個別抽出 ---
     name = _first(r"登録番号</td>\s*</tr>\s*<tr>\s*<td[^>]*>([^<]+)</td>", h)
-    mentor = _nested_value("師匠", h)
+    mentor = _mentor(h)
     nickname = _block_first_value("ニックネーム", h)
     home_bank = _block_first_value("ホームバンク", h)
 
@@ -64,17 +64,26 @@ def parse_keirin_html(h: str) -> dict:
     }
 
 
-def _nested_value(label: str, h: str) -> str | None:
-    """師匠など、値が入れ子テーブルに入る項目。値行のウィンドウから氏名(（の前)を取る。"""
-    m = re.search(re.escape(label) + r"</td>", h)
-    if not m:
+def _mentor(h: str) -> str | None:
+    """師匠を正しく抽出する。
+
+    師匠/弟子/練習グループ の3列ヘッダの直後の値行で、
+    最初の値セル(=師匠)のみを対象にする。師匠が "-" の場合は None。
+    弟子・練習グループの氏名を誤って拾わないよう、値セルを class で分割する。
+    """
+    i = h.find(">師匠</td>")
+    if i < 0:
         return None
-    window = h[m.end(): m.end() + 2500]
-    # 値行(2つ目以降の<tr>)以降のテキストを平文化
-    plain = _txt(window)
-    # 「新谷 隆広（群 馬・48期）」のような並び -> （の前を氏名とする
-    pm = re.search(r"([一-龠ぁ-んァ-ヶ々]+\s*[一-龠ぁ-んァ-ヶ々]*)\s*[（(]", plain)
-    return _norm(pm.group(1)) if pm else None
+    region = h[i: i + 1800]
+    # 値セルは <td class="al-c" colspan="2"> （ヘッダは tbl_header なので一致しない）
+    parts = region.split('<td class="al-c" colspan="2">')
+    if len(parts) < 2:
+        return None
+    cell = parts[1]  # 師匠の値セル(次の値セル直前まで)
+    a = re.search(r'<a href="\?snum=\d+"[^>]*>([^<]+)</a>', cell)
+    if a:
+        return _norm(a.group(1))
+    return None  # "-" 等 -> 師匠なし
 
 
 def _block_first_value(label: str, h: str) -> str | None:
