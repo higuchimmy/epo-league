@@ -1,5 +1,5 @@
 // app.js — 画面制御 (依存なし / ESモジュール)
-import { QUIZ_TYPES, buildSession, generateQuestion } from "./quiz.js?v=17";
+import { QUIZ_TYPES, buildSession, generateQuestion } from "./quiz.js?v=19";
 
 const DATA_BASE = "../data/master/";
 const photoUrl = (p) => DATA_BASE + p.photo;
@@ -388,11 +388,11 @@ function studyCard(p) {
     <div class="body">
       <div class="nm">${esc(p.name)}</div>
       <div class="kana">${esc(p.name_kana || "")}</div>
-      <div class="meta">${tag("region", p.region)} ${tag("cls", p.class)} ${tag("gait", p.footwork_label)}</div>
+      <div class="meta">${tag("region", p.region)} ${tag("cls", p.class)} ${tag("gait", p.footwork_label)}${p.pickup_races && p.pickup_races.length ? `<span class="tag pickup">▶映像 ${p.pickup_races.length}</span>` : ""}</div>
       <dl class="facts">
         ${fact("出身", p.prefecture)}${fact("期別", p.period ? p.period + "期" : null)}
         ${fact("ホーム", p.home)}${fact("師匠", p.mentor)}
-        ${fact("得点", p.points)}${fact("登録", p.id)}
+        ${fact("得点", p.points)}
       </dl>
       <div class="lk">
         <a href="${p.links.keirin_jp}" target="_blank" rel="noopener">KEIRIN.JP ↗</a>
