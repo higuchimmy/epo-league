@@ -35,7 +35,7 @@ def parse_keirin_html(h: str) -> dict:
     name = _first(r"登録番号</td>\s*</tr>\s*<tr>\s*<td[^>]*>([^<]+)</td>", h)
     mentor = _mentor(h)
     nickname = _block_first_value("ニックネーム", h)
-    home_bank = _block_first_value("ホームバンク", h)
+    home_bank, home_track = _home_fields(h)
 
     return {
         "reg_no": pair.get("登録番号"),
@@ -54,7 +54,8 @@ def parse_keirin_html(h: str) -> dict:
         "weight_kg": _num(pair.get("体重")),
         "mentor": _norm(mentor),
         "nickname": _norm(nickname),
-        "home_bank": _norm(home_bank),
+        "home_bank": home_bank,
+        "home_track": home_track,
         "stats": {
             "win_rate": pair.get("勝率"),
             "place2_rate": pair.get("2連対率"),
@@ -84,6 +85,25 @@ def _mentor(h: str) -> str | None:
     if a:
         return _norm(a.group(1))
     return None  # "-" 等 -> 師匠なし
+
+
+def _home_fields(h: str):
+    """ホームバンク と ホーム競技場（練習地）を返す。
+
+    ヘッダ行(ホームバンク|ホーム競技場（練習地）|得意な周長|…)の直後の値行で、
+    1セル目=ホームバンク, 2セル目=ホーム競技場。'-'/空は None。
+    """
+    i = h.find(">ホームバンク</td>")
+    if i < 0:
+        return None, None
+    j = h.find("</tr>", i)          # ヘッダ行の終端
+    k = h.find("</tr>", j + 1)      # 値行の終端
+    row = h[j:k]
+    cells = [_txt(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)]
+    norm = lambda v: None if (not v or v == "-") else v  # noqa: E731
+    bank = norm(cells[0]) if len(cells) > 0 else None
+    track = norm(cells[1]) if len(cells) > 1 else None
+    return bank, track
 
 
 def _block_first_value(label: str, h: str) -> str | None:

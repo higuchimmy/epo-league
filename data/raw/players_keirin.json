@@ -17,6 +17,7 @@
     "mentor": "松岡 伸定",
     "nickname": null,
     "home_bank": "高松",
+    "home_track": null,
     "stats": {
       "win_rate": "22.2%",
       "place2_rate": "27.7%",
@@ -45,6 +46,7 @@
     "mentor": null,
     "nickname": null,
     "home_bank": "小松島",
+    "home_track": null,
     "stats": {
       "win_rate": "12.0%",
       "place2_rate": "40.0%",
@@ -73,6 +75,7 @@
     "mentor": "添田 広福",
     "nickname": null,
     "home_bank": "いわき平",
+    "home_track": "泉崎国際サイクルスタジアム",
     "stats": {
       "win_rate": "15.3%",
       "place2_rate": "53.8%",
@@ -101,6 +104,7 @@
     "mentor": "小川 隆",
     "nickname": "メグ",
     "home_bank": "弥彦",
+    "home_track": null,
     "stats": {
       "win_rate": "5.2%",
       "place2_rate": "21.0%",
@@ -129,6 +133,7 @@
     "mentor": "白井圭一郎",
     "nickname": null,
     "home_bank": "防府",
+    "home_track": null,
     "stats": {
       "win_rate": "16.6%",
       "place2_rate": "37.5%",
@@ -157,6 +162,7 @@
     "mentor": "原 司",
     "nickname": null,
     "home_bank": "佐世保",
+    "home_track": null,
     "stats": {
       "win_rate": "19.0%",
       "place2_rate": "38.0%",
@@ -185,6 +191,7 @@
     "mentor": "若林 哲夫",
     "nickname": null,
     "home_bank": null,
+    "home_track": null,
     "stats": {
       "win_rate": "14.2%",
       "place2_rate": "23.8%",
@@ -213,6 +220,7 @@
     "mentor": "西野 卓也",
     "nickname": null,
     "home_bank": "和歌山",
+    "home_track": null,
     "stats": {
       "win_rate": "9.0%",
       "place2_rate": "18.1%",
@@ -241,6 +249,7 @@
     "mentor": "新谷 隆広",
     "nickname": "ヤグ",
     "home_bank": "前橋",
+    "home_track": null,
     "stats": {
       "win_rate": "0.0%",
       "place2_rate": "26.0%",
@@ -269,6 +278,7 @@
     "mentor": "村上 義弘",
     "nickname": "ひろゆき・ヒロ",
     "home_bank": "向日町",
+    "home_track": null,
     "stats": {
       "win_rate": "25.0%",
       "place2_rate": "43.7%",
@@ -297,6 +307,7 @@
     "mentor": "片岡 克巳",
     "nickname": null,
     "home_bank": "玉野",
+    "home_track": null,
     "stats": {
       "win_rate": "14.8%",
       "place2_rate": "25.9%",
@@ -325,6 +336,7 @@
     "mentor": "吉岡 稔真",
     "nickname": "匠",
     "home_bank": "小倉",
+    "home_track": null,
     "stats": {
       "win_rate": "13.3%",
       "place2_rate": "30.0%",
@@ -353,6 +365,7 @@
     "mentor": "佐藤 幸博",
     "nickname": null,
     "home_bank": null,
+    "home_track": "紫波自転車競技場",
     "stats": {
       "win_rate": "35.0%",
       "place2_rate": "40.0%",
@@ -381,6 +394,7 @@
     "mentor": "佐藤 一朗",
     "nickname": null,
     "home_bank": null,
+    "home_track": "泉崎国際サイクルスタジアム",
     "stats": {
       "win_rate": "11.1%",
       "place2_rate": "38.8%",
@@ -409,6 +423,7 @@
     "mentor": "添田 広福",
     "nickname": null,
     "home_bank": "いわき平",
+    "home_track": null,
     "stats": {
       "win_rate": "10.0%",
       "place2_rate": "25.0%",
@@ -437,6 +452,7 @@
     "mentor": "乾 準一",
     "nickname": null,
     "home_bank": "岸和田",
+    "home_track": "関西サイクルスポーツセンター",
     "stats": {
       "win_rate": "17.6%",
       "place2_rate": "29.4%",
@@ -465,6 +481,7 @@
     "mentor": "本田 晴美",
     "nickname": null,
     "home_bank": "玉野",
+    "home_track": null,
     "stats": {
       "win_rate": "14.8%",
       "place2_rate": "25.9%",
@@ -493,6 +510,7 @@
     "mentor": "谷津田陽一",
     "nickname": null,
     "home_bank": "いわき平",
+    "home_track": null,
     "stats": {
       "win_rate": "17.6%",
       "place2_rate": "35.2%",
@@ -521,6 +539,7 @@
     "mentor": "田中 邦輝",
     "nickname": null,
     "home_bank": "四日市",
+    "home_track": null,
     "stats": {
       "win_rate": "0.0%",
       "place2_rate": "33.3%",
@@ -549,6 +568,7 @@
     "mentor": "伊藤 豊明",
     "nickname": "つよし",
     "home_bank": "松山",
+    "home_track": null,
     "stats": {
       "win_rate": "9.0%",
       "place2_rate": "18.1%",
@@ -577,6 +597,7 @@
     "mentor": "中野 龍浩",
     "nickname": "ヒデ",
     "home_bank": "武雄",
+    "home_track": null,
     "stats": {
       "win_rate": "18.7%",
       "place2_rate": "37.5%",
@@ -605,6 +626,7 @@
     "mentor": "班目 秀雄",
     "nickname": null,
     "home_bank": "いわき平",
+    "home_track": "泉崎国際サイクルスタジアム",
     "stats": {
       "win_rate": "13.0%",
       "place2_rate": "26.0%",
@@ -633,6 +655,7 @@
     "mentor": "木村 泰丈",
     "nickname": null,
     "home_bank": "取手",
+    "home_track": null,
     "stats": {
       "win_rate": "20.8%",
       "place2_rate": "33.3%",
@@ -661,6 +684,7 @@
     "mentor": "佐久間重光",
     "nickname": null,
     "home_bank": "四日市",
+    "home_track": null,
     "stats": {
       "win_rate": "30.7%",
       "place2_rate": "34.6%",
@@ -689,6 +713,7 @@
     "mentor": "北村 尚勝",
     "nickname": "しょう・いなしょう",
     "home_bank": null,
+    "home_track": "関西サイクルスポーツセンター",
     "stats": {
       "win_rate": "4.5%",
       "place2_rate": "40.9%",
@@ -717,6 +742,7 @@
     "mentor": "吉岡 稔真",
     "nickname": null,
     "home_bank": "小倉",
+    "home_track": null,
     "stats": {
       "win_rate": "7.6%",
       "place2_rate": "23.0%",
@@ -745,6 +771,7 @@
     "mentor": null,
     "nickname": "つっつん",
     "home_bank": "小倉",
+    "home_track": null,
     "stats": {
       "win_rate": "13.3%",
       "place2_rate": "33.3%",
@@ -773,6 +800,7 @@
     "mentor": null,
     "nickname": null,
     "home_bank": null,
+    "home_track": null,
     "stats": {
       "win_rate": "10.0%",
       "place2_rate": "25.0%",
@@ -801,6 +829,7 @@
     "mentor": "神山雄一郎",
     "nickname": null,
     "home_bank": "宇都宮",
+    "home_track": null,
     "stats": {
       "win_rate": "16.0%",
       "place2_rate": "32.0%",
@@ -829,6 +858,7 @@
     "mentor": "野村 昌弘",
     "nickname": "ヨウ",
     "home_bank": "西武園",
+    "home_track": null,
     "stats": {
       "win_rate": "19.2%",
       "place2_rate": "53.8%",
@@ -857,6 +887,7 @@
     "mentor": "関戸 努",
     "nickname": "わだけい",
     "home_bank": null,
+    "home_track": "宮城県自転車競技場",
     "stats": {
       "win_rate": "28.5%",
       "place2_rate": "42.8%",
@@ -885,6 +916,7 @@
     "mentor": "三谷 典正",
     "nickname": null,
     "home_bank": "奈良",
+    "home_track": null,
     "stats": {
       "win_rate": "21.0%",
       "place2_rate": "31.5%",
@@ -913,6 +945,7 @@
     "mentor": "山田 英之",
     "nickname": "ヒサノリ､ヒサくん",
     "home_bank": "向日町",
+    "home_track": null,
     "stats": {
       "win_rate": "20.6%",
       "place2_rate": "34.4%",
@@ -941,6 +974,7 @@
     "mentor": "四元 隆裕",
     "nickname": null,
     "home_bank": "和歌山",
+    "home_track": null,
     "stats": {
       "win_rate": "14.8%",
       "place2_rate": "22.2%",
@@ -969,6 +1003,7 @@
     "mentor": null,
     "nickname": null,
     "home_bank": "千葉",
+    "home_track": null,
     "stats": {
       "win_rate": "26.0%",
       "place2_rate": "43.4%",
@@ -997,6 +1032,7 @@
     "mentor": "中村 浩士",
     "nickname": "そらし、たかし",
     "home_bank": "千葉",
+    "home_track": null,
     "stats": {
       "win_rate": "29.6%",
       "place2_rate": "48.1%",
@@ -1025,6 +1061,7 @@
     "mentor": null,
     "nickname": "ワッキー",
     "home_bank": "福井",
+    "home_track": null,
     "stats": {
       "win_rate": "0.0%",
       "place2_rate": "0.0%",
@@ -1053,6 +1090,7 @@
     "mentor": "中野 龍浩",
     "nickname": null,
     "home_bank": "武雄",
+    "home_track": null,
     "stats": {
       "win_rate": "40.0%",
       "place2_rate": "50.0%",
@@ -1081,6 +1119,7 @@
     "mentor": "黒田 賢治",
     "nickname": "ランボー",
     "home_bank": "川崎",
+    "home_track": null,
     "stats": {
       "win_rate": "17.3%",
       "place2_rate": "34.7%",
@@ -1109,6 +1148,7 @@
     "mentor": "竹本 茂",
     "nickname": "ばっちゃん・ばたやん",
     "home_bank": "玉野",
+    "home_track": null,
     "stats": {
       "win_rate": "26.4%",
       "place2_rate": "41.1%",
@@ -1137,6 +1177,7 @@
     "mentor": "高橋 里志",
     "nickname": "モリ",
     "home_bank": null,
+    "home_track": "美郷町六郷自転車競技場",
     "stats": {
       "win_rate": "8.6%",
       "place2_rate": "34.7%",
@@ -1165,6 +1206,7 @@
     "mentor": "飯嶋 則之",
     "nickname": null,
     "home_bank": "宇都宮",
+    "home_track": null,
     "stats": {
       "win_rate": "4.0%",
       "place2_rate": "32.0%",
@@ -1193,6 +1235,7 @@
     "mentor": "幸田 光博",
     "nickname": null,
     "home_bank": "宇都宮",
+    "home_track": null,
     "stats": {
       "win_rate": "18.5%",
       "place2_rate": "40.7%",
@@ -1221,6 +1264,7 @@
     "mentor": "佐々木龍也",
     "nickname": "松谷・秀",
     "home_bank": "川崎",
+    "home_track": null,
     "stats": {
       "win_rate": "25.0%",
       "place2_rate": "35.0%",
@@ -1249,6 +1293,7 @@
     "mentor": "金子 貴志",
     "nickname": "ふかや",
     "home_bank": "静岡",
+    "home_track": null,
     "stats": {
       "win_rate": "46.1%",
       "place2_rate": "61.5%",
@@ -1277,6 +1322,7 @@
     "mentor": "中武 克雄",
     "nickname": null,
     "home_bank": null,
+    "home_track": "関西サイクルスポーツセンター",
     "stats": {
       "win_rate": "16.0%",
       "place2_rate": "56.0%",
@@ -1305,6 +1351,7 @@
     "mentor": "米澤 大輔",
     "nickname": "いっき、がたいち",
     "home_bank": "小松島",
+    "home_track": null,
     "stats": {
       "win_rate": "4.3%",
       "place2_rate": "17.3%",
@@ -1333,6 +1380,7 @@
     "mentor": "塚本 英美",
     "nickname": "大樹",
     "home_bank": "熊本",
+    "home_track": null,
     "stats": {
       "win_rate": "5.8%",
       "place2_rate": "17.6%",
@@ -1361,6 +1409,7 @@
     "mentor": "武藤 嘉伸",
     "nickname": null,
     "home_bank": "西武園",
+    "home_track": null,
     "stats": {
       "win_rate": "15.0%",
       "place2_rate": "35.0%",
@@ -1389,6 +1438,7 @@
     "mentor": "脇田 良雄",
     "nickname": null,
     "home_bank": "広島",
+    "home_track": null,
     "stats": {
       "win_rate": "57.1%",
       "place2_rate": "71.4%",
@@ -1417,6 +1467,7 @@
     "mentor": "郡司 盛夫",
     "nickname": "浩平",
     "home_bank": "川崎",
+    "home_track": null,
     "stats": {
       "win_rate": "23.0%",
       "place2_rate": "46.1%",
@@ -1445,6 +1496,7 @@
     "mentor": "渡邊 秀明",
     "nickname": null,
     "home_bank": "平塚",
+    "home_track": null,
     "stats": {
       "win_rate": "9.0%",
       "place2_rate": "27.2%",
@@ -1473,6 +1525,7 @@
     "mentor": "高浜 裕一",
     "nickname": "力也",
     "home_bank": null,
+    "home_track": null,
     "stats": {
       "win_rate": "33.3%",
       "place2_rate": "50.0%",
@@ -1501,6 +1554,7 @@
     "mentor": "澁谷 明",
     "nickname": "おんぺー、おんぴー、自販機先輩",
     "home_bank": "前橋",
+    "home_track": null,
     "stats": {
       "win_rate": "12.5%",
       "place2_rate": "29.1%",
@@ -1529,6 +1583,7 @@
     "mentor": null,
     "nickname": "こしょう",
     "home_bank": null,
+    "home_track": "関西サイクルスポーツセンター",
     "stats": {
       "win_rate": "45.4%",
       "place2_rate": "68.1%",
@@ -1557,6 +1612,7 @@
     "mentor": "武田 豊樹",
     "nickname": null,
     "home_bank": "取手",
+    "home_track": null,
     "stats": {
       "win_rate": "36.3%",
       "place2_rate": "59.0%",
@@ -1585,6 +1641,7 @@
     "mentor": "日里 寿行",
     "nickname": "ゆきお",
     "home_bank": "宇都宮",
+    "home_track": null,
     "stats": {
       "win_rate": "28.0%",
       "place2_rate": "64.0%",
@@ -1613,6 +1670,7 @@
     "mentor": "三谷 典正",
     "nickname": null,
     "home_bank": "奈良",
+    "home_track": null,
     "stats": {
       "win_rate": "9.0%",
       "place2_rate": "22.7%",
@@ -1641,6 +1699,7 @@
     "mentor": "近藤 俊明",
     "nickname": null,
     "home_bank": "平塚",
+    "home_track": null,
     "stats": {
       "win_rate": "25.0%",
       "place2_rate": "42.8%",
@@ -1669,6 +1728,7 @@
     "mentor": "小林 信晴",
     "nickname": null,
     "home_bank": "豊橋",
+    "home_track": null,
     "stats": {
       "win_rate": "15.0%",
       "place2_rate": "35.0%",
@@ -1697,6 +1757,7 @@
     "mentor": "國村 洋",
     "nickname": null,
     "home_bank": "防府",
+    "home_track": null,
     "stats": {
       "win_rate": "34.7%",
       "place2_rate": "56.5%",
@@ -1725,6 +1786,7 @@
     "mentor": "坂本 勉",
     "nickname": null,
     "home_bank": null,
+    "home_track": "八戸自転車競技場",
     "stats": {
       "win_rate": "52.0%",
       "place2_rate": "60.0%",
@@ -1753,6 +1815,7 @@
     "mentor": "荻原 尚人",
     "nickname": null,
     "home_bank": null,
+    "home_track": "宮城県自転車競技場",
     "stats": {
       "win_rate": "4.5%",
       "place2_rate": "22.7%",
@@ -1781,6 +1844,7 @@
     "mentor": "戸邉 裕将",
     "nickname": "りゅーじ",
     "home_bank": "京王閣",
+    "home_track": null,
     "stats": {
       "win_rate": "36.0%",
       "place2_rate": "76.0%",
@@ -1809,6 +1873,7 @@
     "mentor": "十文字貴信",
     "nickname": null,
     "home_bank": "取手",
+    "home_track": null,
     "stats": {
       "win_rate": "46.1%",
       "place2_rate": "69.2%",
@@ -1837,6 +1902,7 @@
     "mentor": "村本 大輔",
     "nickname": null,
     "home_bank": "静岡",
+    "home_track": null,
     "stats": {
       "win_rate": "10.0%",
       "place2_rate": "25.0%",
@@ -1865,6 +1931,7 @@
     "mentor": "栗田 雅也",
     "nickname": null,
     "home_bank": "小倉",
+    "home_track": null,
     "stats": {
       "win_rate": "19.0%",
       "place2_rate": "33.3%",
@@ -1893,6 +1960,7 @@
     "mentor": "取鳥 敬一",
     "nickname": "雄吾",
     "home_bank": "玉野",
+    "home_track": null,
     "stats": {
       "win_rate": "31.8%",
       "place2_rate": "63.6%",
@@ -1921,6 +1989,7 @@
     "mentor": "成田 和也",
     "nickname": "雄多",
     "home_bank": null,
+    "home_track": "泉崎国際サイクルスタジアム",
     "stats": {
       "win_rate": "30.0%",
       "place2_rate": "40.0%",
@@ -1949,6 +2018,7 @@
     "mentor": "鈴木雄一朗",
     "nickname": "たもつ",
     "home_bank": "京王閣",
+    "home_track": null,
     "stats": {
       "win_rate": "35.7%",
       "place2_rate": "42.8%",
@@ -1977,6 +2047,7 @@
     "mentor": "佐々木龍也",
     "nickname": "龍、ドラゴン",
     "home_bank": "川崎",
+    "home_track": null,
     "stats": {
       "win_rate": "8.3%",
       "place2_rate": "41.6%",
@@ -2005,6 +2076,7 @@
     "mentor": null,
     "nickname": "ＧＯ",
     "home_bank": "松山",
+    "home_track": null,
     "stats": {
       "win_rate": "18.5%",
       "place2_rate": "37.0%",
@@ -2033,6 +2105,7 @@
     "mentor": "舛井 幹雄",
     "nickname": null,
     "home_bank": "松阪",
+    "home_track": null,
     "stats": {
       "win_rate": "25.0%",
       "place2_rate": "45.0%",
@@ -2061,6 +2134,7 @@
     "mentor": "濱田 浩司",
     "nickname": "まっちゃん・がっちゃん・たかはる",
     "home_bank": "松山",
+    "home_track": null,
     "stats": {
       "win_rate": "35.0%",
       "place2_rate": "60.0%",
@@ -2089,6 +2163,7 @@
     "mentor": "山口幸太郎",
     "nickname": "ざぶ",
     "home_bank": "佐世保",
+    "home_track": null,
     "stats": {
       "win_rate": "38.0%",
       "place2_rate": "66.6%",
@@ -2117,6 +2192,7 @@
     "mentor": "小田倉勇二",
     "nickname": "たっくん、たくみ",
     "home_bank": "宇都宮",
+    "home_track": null,
     "stats": {
       "win_rate": "37.5%",
       "place2_rate": "62.5%",
@@ -2145,6 +2221,7 @@
     "mentor": "小林 潤二",
     "nickname": "泰正",
     "home_bank": "前橋",
+    "home_track": null,
     "stats": {
       "win_rate": "25.0%",
       "place2_rate": "50.0%",
@@ -2173,6 +2250,7 @@
     "mentor": "山信田 学",
     "nickname": "もりた、もり、ゆうや",
     "home_bank": "大宮",
+    "home_track": null,
     "stats": {
       "win_rate": "43.4%",
       "place2_rate": "60.8%",
@@ -2201,6 +2279,7 @@
     "mentor": "三ツ井 勉",
     "nickname": "宏佑",
     "home_bank": "平塚",
+    "home_track": null,
     "stats": {
       "win_rate": "9.5%",
       "place2_rate": "23.8%",
@@ -2229,6 +2308,7 @@
     "mentor": "山村 慮太",
     "nickname": null,
     "home_bank": "岸和田",
+    "home_track": null,
     "stats": {
       "win_rate": "38.0%",
       "place2_rate": "52.3%",
@@ -2257,6 +2337,7 @@
     "mentor": "倉岡慎太郎",
     "nickname": null,
     "home_bank": "熊本",
+    "home_track": null,
     "stats": {
       "win_rate": "13.6%",
       "place2_rate": "54.5%",
@@ -2285,6 +2366,7 @@
     "mentor": "倉岡慎太郎",
     "nickname": "たいちゃん",
     "home_bank": "熊本",
+    "home_track": null,
     "stats": {
       "win_rate": "31.8%",
       "place2_rate": "45.4%",
@@ -2313,6 +2395,7 @@
     "mentor": "佐藤 康紀",
     "nickname": "オバユー",
     "home_bank": null,
+    "home_track": "八戸自転車競技場",
     "stats": {
       "win_rate": "15.3%",
       "place2_rate": "30.7%",
@@ -2341,6 +2424,7 @@
     "mentor": "土屋 仁",
     "nickname": null,
     "home_bank": "取手",
+    "home_track": null,
     "stats": {
       "win_rate": "23.0%",
       "place2_rate": "30.7%",
@@ -2369,6 +2453,7 @@
     "mentor": "星野 辰也",
     "nickname": null,
     "home_bank": "宇都宮",
+    "home_track": null,
     "stats": {
       "win_rate": "28.5%",
       "place2_rate": "39.2%",
@@ -2397,6 +2482,7 @@
     "mentor": "矢口啓一郎",
     "nickname": null,
     "home_bank": "前橋",
+    "home_track": null,
     "stats": {
       "win_rate": "35.0%",
       "place2_rate": "50.0%",
@@ -2425,6 +2511,7 @@
     "mentor": "水谷 良和",
     "nickname": "ユウゴ",
     "home_bank": "名古屋",
+    "home_track": null,
     "stats": {
       "win_rate": "36.0%",
       "place2_rate": "52.0%",
@@ -2453,6 +2540,7 @@
     "mentor": "等々力久就",
     "nickname": null,
     "home_bank": null,
+    "home_track": "松本美鈴湖自転車競技場",
     "stats": {
       "win_rate": "15.7%",
       "place2_rate": "42.1%",
@@ -2481,6 +2569,7 @@
     "mentor": "鷲田 佳史",
     "nickname": "コーヘー",
     "home_bank": "福井",
+    "home_track": null,
     "stats": {
       "win_rate": "16.6%",
       "place2_rate": "38.8%",
@@ -2509,6 +2598,7 @@
     "mentor": null,
     "nickname": "ゲント、ナム",
     "home_bank": "立川",
+    "home_track": null,
     "stats": {
       "win_rate": "30.0%",
       "place2_rate": "30.0%",
@@ -2537,6 +2627,7 @@
     "mentor": "小原 太樹",
     "nickname": null,
     "home_bank": "川崎",
+    "home_track": null,
     "stats": {
       "win_rate": "27.2%",
       "place2_rate": "50.0%",
@@ -2565,6 +2656,7 @@
     "mentor": "佐々木龍也",
     "nickname": "シンヤ",
     "home_bank": "川崎",
+    "home_track": null,
     "stats": {
       "win_rate": "25.0%",
       "place2_rate": "43.7%",
@@ -2593,6 +2685,7 @@
     "mentor": "渡邉 晴智",
     "nickname": "シャーク先生、なり樹",
     "home_bank": "静岡",
+    "home_track": null,
     "stats": {
       "win_rate": "37.0%",
       "place2_rate": "59.2%",
@@ -2621,6 +2714,7 @@
     "mentor": "山口 富生",
     "nickname": null,
     "home_bank": "大垣",
+    "home_track": null,
     "stats": {
       "win_rate": "39.2%",
       "place2_rate": "39.2%",
@@ -2649,6 +2743,7 @@
     "mentor": "吉本 哲郎",
     "nickname": "タイガーチャージ",
     "home_bank": "広島",
+    "home_track": null,
     "stats": {
       "win_rate": "16.6%",
       "place2_rate": "45.8%",
@@ -2677,6 +2772,7 @@
     "mentor": "吉田 彰久",
     "nickname": null,
     "home_bank": "高松",
+    "home_track": null,
     "stats": {
       "win_rate": "22.7%",
       "place2_rate": "50.0%",
@@ -2705,6 +2801,7 @@
     "mentor": "山崎 翼",
     "nickname": "アベマサ",
     "home_bank": "別府",
+    "home_track": null,
     "stats": {
       "win_rate": "35.2%",
       "place2_rate": "70.5%",
@@ -2733,6 +2830,7 @@
     "mentor": "田川 辰二",
     "nickname": null,
     "home_bank": "熊本",
+    "home_track": null,
     "stats": {
       "win_rate": "14.2%",
       "place2_rate": "23.8%",
@@ -2761,6 +2859,7 @@
     "mentor": "田川 辰二",
     "nickname": "まっちゃん、たつ",
     "home_bank": "熊本",
+    "home_track": null,
     "stats": {
       "win_rate": "4.1%",
       "place2_rate": "12.5%",
@@ -2789,6 +2888,7 @@
     "mentor": "吉田 拓矢",
     "nickname": null,
     "home_bank": "取手",
+    "home_track": null,
     "stats": {
       "win_rate": "23.8%",
       "place2_rate": "38.0%",
@@ -2817,6 +2917,7 @@
     "mentor": "吉村 和之",
     "nickname": "龍星",
     "home_bank": "大垣",
+    "home_track": null,
     "stats": {
       "win_rate": "16.0%",
       "place2_rate": "48.0%",
@@ -2845,6 +2946,7 @@
     "mentor": "小倉 竜二",
     "nickname": null,
     "home_bank": "小松島",
+    "home_track": null,
     "stats": {
       "win_rate": "50.0%",
       "place2_rate": "61.5%",
@@ -2873,6 +2975,7 @@
     "mentor": "佐藤 友和",
     "nickname": "しんちゃん",
     "home_bank": null,
+    "home_track": "紫波自転車競技場",
     "stats": {
       "win_rate": "0.0%",
       "place2_rate": "25.0%",
@@ -2901,6 +3004,7 @@
     "mentor": "藤田 昌宏",
     "nickname": "カイヤ",
     "home_bank": "玉野",
+    "home_track": null,
     "stats": {
       "win_rate": "50.0%",
       "place2_rate": "50.0%",
@@ -2929,6 +3033,7 @@
     "mentor": "桑原 亮",
     "nickname": "だいき、だいちゃん",
     "home_bank": "久留米",
+    "home_track": null,
     "stats": {
       "win_rate": "27.2%",
       "place2_rate": "40.9%",
@@ -2957,6 +3062,7 @@
     "mentor": "東矢 昇太",
     "nickname": "トーヤ、クマ",
     "home_bank": "熊本",
+    "home_track": null,
     "stats": {
       "win_rate": "13.6%",
       "place2_rate": "36.3%",
@@ -2985,6 +3091,7 @@
     "mentor": "吉本 哲郎",
     "nickname": null,
     "home_bank": "広島",
+    "home_track": null,
     "stats": {
       "win_rate": "12.5%",
       "place2_rate": "37.5%",

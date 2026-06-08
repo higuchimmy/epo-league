@@ -109,7 +109,7 @@ export function generateQuestion(typeId, data) {
       const cand = [
         ["生年月日", p.birthdate], ["期別", p.period ? p.period + "期" : null],
         ["級班", p.class], ["脚質", p.footwork_label], ["出身", p.prefecture],
-        ["地区", p.region], ["ホーム", p.home_bank], ["師匠", p.mentor],
+        ["地区", p.region], ["ホーム", p.home], ["師匠", p.mentor],
         ["身長", p.height_cm ? p.height_cm + "cm" : null], ["今期得点", p.points],
       ].filter(([, v]) => v != null && v !== "");
       // ヒントは5つ前後をランダムに(難易度のため名前を直接示すものは無し)
@@ -163,13 +163,13 @@ export function generateQuestion(typeId, data) {
       };
     }
     case "home": {
-      const p = pick(attr.filter((q) => q.home_bank));
+      const p = pick(attr.filter((q) => q.home));
       return {
-        type: typeId, prompt: `${p.name} のホームバンクは？`,
+        type: typeId, prompt: `${p.name} のホーム（バンク／練習地）は？`,
         media: { kind: "photo", player: p, small: true },
-        choices: buildChoices(p.home_bank, players.filter((q) => q.home_bank).map((q) => q.home_bank)),
-        answer: p.home_bank, player: p,
-        explain: `${p.name} のホームは ${p.home_bank}`,
+        choices: buildChoices(p.home, players.filter((q) => q.home).map((q) => q.home)),
+        answer: p.home, player: p,
+        explain: `${p.name} のホームは ${p.home}`,
       };
     }
     case "mentor": {

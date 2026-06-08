@@ -81,6 +81,9 @@ def main() -> None:
                 "footwork": p.get("footwork"),
                 "footwork_label": FOOTWORK.get(p.get("footwork"), p.get("footwork")),
                 "home_bank": p.get("home_bank"),
+                "home_track": p.get("home_track"),
+                # 表示・出題用: ホームバンクが無い場合は練習地で補完
+                "home": p.get("home_bank") or p.get("home_track"),
                 "mentor": p.get("mentor"),
                 "nickname": p.get("nickname"),
                 "height_cm": p.get("height_cm"),

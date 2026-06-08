@@ -1,5 +1,5 @@
 // app.js — 画面制御 (依存なし / ESモジュール)
-import { QUIZ_TYPES, buildSession, generateQuestion } from "./quiz.js?v=14";
+import { QUIZ_TYPES, buildSession, generateQuestion } from "./quiz.js?v=15";
 
 const DATA_BASE = "../data/master/";
 const photoUrl = (p) => DATA_BASE + p.photo;
@@ -391,7 +391,7 @@ function studyCard(p) {
       <div class="meta">${tag("region", p.region)} ${tag("cls", p.class)} ${tag("gait", p.footwork_label)}</div>
       <dl class="facts">
         ${fact("出身", p.prefecture)}${fact("期別", p.period ? p.period + "期" : null)}
-        ${fact("ホーム", p.home_bank)}${fact("師匠", p.mentor)}
+        ${fact("ホーム", p.home)}${fact("師匠", p.mentor)}
         ${fact("得点", p.points)}${fact("登録", p.id)}
       </dl>
       <div class="lk">
@@ -482,7 +482,7 @@ function playerKV(p) {
   const rows = [
     ["登録番号", p.id], ["生年月日", p.birthdate], ["年齢", p.age != null ? p.age + "歳" : null],
     ["登録地", p.prefecture], ["地区", p.region], ["期別", p.period ? p.period + "期" : null],
-    ["級班", p.class], ["脚質", p.footwork_label], ["ホーム", p.home_bank], ["師匠", p.mentor],
+    ["級班", p.class], ["脚質", p.footwork_label], ["ホーム", p.home], ["師匠", p.mentor],
     ["身長", p.height_cm ? p.height_cm + "cm" : null], ["体重", p.weight_kg ? p.weight_kg + "kg" : null],
     ["今期得点", p.points], ["勝率", s.win_rate], ["2連対率", s.place2_rate], ["3連対率", s.place3_rate],
   ].filter(([, v]) => v != null && v !== "");
