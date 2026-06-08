@@ -13,7 +13,7 @@
   function loadApp() {
     var s = document.createElement("script");
     s.type = "module";
-    s.src = "js/app.js?v=11"; // キャッシュバスター(JS更新時にバンプ)
+    s.src = "js/app.js?v=14"; // キャッシュバスター(JS更新時にバンプ)
     document.body.appendChild(s);
   }
 

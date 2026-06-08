@@ -19,6 +19,8 @@ export const QUIZ_TYPES = [
   { id: "venueCircum", label: "競輪場の周長", group: "場", desc: "競輪場のバンク周長(m)を当てる" },
   { id: "raceCar", label: "出走表", group: "レース", desc: "出走表の◯番車の選手を当てる (出走表形式)" },
   { id: "video", label: "映像", group: "レース", desc: "ダイジェスト映像を見て◯番車の選手を当てる (映像形式)" },
+  { id: "glossaryTerm", label: "意味→用語", group: "用語", desc: "競輪用語の意味から用語名を当てる" },
+  { id: "glossaryDesc", label: "用語→意味", group: "用語", desc: "競輪用語の意味を当てる" },
 ];
 
 // --- ユーティリティ ---
@@ -49,6 +51,10 @@ function similarPlayers(p, players) {
 // --- 1問生成 ---
 export function generateQuestion(typeId, data) {
   const { players, regions, velodromes, races } = data;
+  const terms = data.terms || [];
+  // クイズ向き用語: 説明が十分長く、説明文に用語名が露出していないもの
+  const quizTerms = terms.filter((t) => t.desc.length >= 12 && !t.desc.includes(t.term));
+  const firstSentence = (s) => { const i = s.indexOf("。"); return i > 0 ? s.slice(0, i + 1) : s; };
   const FOOT = ["逃げ", "追込", "両"];
   const CLASSES = uniq(players.map((p) => p.class));
   // 属性クイズの出題対象。スコープ指定があればその地区の選手のみ(顔↔名前は全選手のまま)
@@ -132,7 +138,7 @@ export function generateQuestion(typeId, data) {
       return {
         type: typeId, prompt: `${p.name} の級班は？`,
         media: { kind: "photo", player: p, small: true },
-        choices: buildChoices(p.class, CLASSES.length >= 4 ? CLASSES : ["S級S班","S級1班","S級2班","A級1班","A級2班"]),
+        choices: buildChoices(p.class, CLASSES),
         answer: p.class, player: p,
         explain: `${p.name} は ${p.class}（今期得点 ${p.points ?? "-"}）`,
       };
@@ -221,6 +227,29 @@ export function generateQuestion(typeId, data) {
         choices: shuffle(["333m", "400m", "500m"]),
         answer: ans,
         explain: `${v.name}競輪場のバンク周長は ${ans}`,
+      };
+    }
+    case "glossaryTerm": {
+      if (!terms.length) return generateQuestion("photo2name", data);
+      const t = pick(quizTerms.length >= 4 ? quizTerms : terms);
+      return {
+        type: typeId, prompt: "次の意味の競輪用語は？",
+        media: { kind: "term", text: t.desc },
+        choices: buildChoices(t.term, terms.map((x) => x.term)),
+        answer: t.term,
+        explain: `${t.term}（${t.reading}）— ${t.desc}`,
+      };
+    }
+    case "glossaryDesc": {
+      if (!terms.length) return generateQuestion("photo2name", data);
+      const t = pick(quizTerms.length >= 4 ? quizTerms : terms);
+      const correct = firstSentence(t.desc);
+      return {
+        type: typeId, prompt: `「${t.term}（${t.reading}）」の意味は？`,
+        media: null,
+        choices: buildChoices(correct, terms.filter((x) => x.term !== t.term).map((x) => firstSentence(x.desc))),
+        answer: correct,
+        explain: `${t.term} — ${t.desc}`,
       };
     }
     default:

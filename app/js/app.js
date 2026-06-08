@@ -1,5 +1,5 @@
 // app.js — 画面制御 (依存なし / ESモジュール)
-import { QUIZ_TYPES, buildSession, generateQuestion } from "./quiz.js?v=11";
+import { QUIZ_TYPES, buildSession, generateQuestion } from "./quiz.js?v=14";
 
 const DATA_BASE = "../data/master/";
 const photoUrl = (p) => DATA_BASE + p.photo;
@@ -200,7 +200,22 @@ function startQuiz() {
   }
   if (!types.length) types = ["photo2name"];
   const qs = buildSession(DB, { types, count: quizState.count, pool, attrPlayers });
-  session = { qs, i: 0, correct: 0, answered: false };
+  session = { qs, i: 0, correct: 0, answered: false, wrong: [] };
+  renderQuestion();
+}
+// 選択肢の表示ラベル(名前→顔は id を選手名に変換)
+function labelOf(q, val) {
+  if (q.choiceRender === "photo") {
+    const c = (q.choices || []).find((x) => String(x.id) === String(val));
+    return c ? c.name : val;
+  }
+  return val;
+}
+// 間違えた問題だけで再挑戦
+function retryWrong() {
+  const qs = session.wrong.map((w) => w.q);
+  if (!qs.length) return;
+  session = { qs, i: 0, correct: 0, answered: false, wrong: [] };
   renderQuestion();
 }
 
@@ -220,6 +235,7 @@ function renderQuestion() {
       ${q.media && q.media.kind === "hints" ? `<div class="hints">${q.media.hints.map((h) => `<div class="hint"><span class="hk">${esc(h.k)}</span><span class="hv">${esc(h.v)}</span></div>`).join("")}</div>` : ""}
       ${q.media && q.media.kind === "entries" ? renderEntries(q.media) : ""}
       ${q.media && q.media.kind === "video" ? renderVideo(q.media) : ""}
+      ${q.media && q.media.kind === "term" ? `<div class="term-desc">${esc(q.media.text)}</div>` : ""}
       <div class="choices ${isPhotoChoices ? "photo-grid" : (q.choices.some((c) => String(c).length > 10) ? "one-col" : "")}" id="choices">
         ${q.choices.map((c, idx) => choiceHTML(c, idx, q, isPhotoChoices)).join("")}
       </div>
@@ -266,6 +282,7 @@ function answer(el, q, isPhoto) {
   const correctVal = String(q.answer);
   const ok = chosen === correctVal;
   if (ok) session.correct++;
+  else session.wrong.push({ q, chosen: labelOf(q, chosen), answer: labelOf(q, correctVal) });
   view.querySelectorAll(".choice").forEach((b) => {
     b.disabled = true;
     const v = b.dataset.v;
@@ -293,6 +310,7 @@ function renderResult() {
   const pct = Math.round((correct / total) * 100);
   const grade = pct >= 90 ? "S級S班" : pct >= 75 ? "S級1班" : pct >= 60 ? "S級2班" : pct >= 40 ? "A級1班" : "練習生";
   const msg = pct >= 90 ? "完璧。バンクの主だ。" : pct >= 60 ? "いい走り。あと一歩。" : "周回不足。もう一本！";
+  const wrong = session.wrong || [];
   view.innerHTML = `
     <div class="card result">
       <span class="kicker">RESULT</span>
@@ -301,11 +319,34 @@ function renderResult() {
       <p class="lead" style="margin:0 auto">${msg}（正答率 ${pct}%）</p>
       <div class="actions">
         <button class="btn" id="again">もう一度</button>
+        ${wrong.length ? `<button class="btn" id="retryWrong">間違いだけ再挑戦 (${wrong.length})</button>` : ""}
         <button class="btn ghost" id="toSetup">設定を変える</button>
       </div>
-    </div>`;
+    </div>
+    ${wrong.length ? `
+      <div class="section-head" style="margin:34px 0 14px"><h2>間違えた問題 <span class="tag gait">${wrong.length}</span></h2></div>
+      <div class="review">
+        ${wrong.map((w) => reviewItem(w)).join("")}
+      </div>` : `
+      <p class="lead" style="text-align:center;margin:28px auto 0;color:var(--c6)">全問正解！振り返りはありません。</p>`}`;
   document.getElementById("again").addEventListener("click", startQuiz);
   document.getElementById("toSetup").addEventListener("click", QuizSetup);
+  document.getElementById("retryWrong")?.addEventListener("click", retryWrong);
+}
+function reviewItem(w) {
+  const q = w.q;
+  const photo = q.player ? `<img class="ri-ph" src="${photoUrl(q.player)}" alt="" data-nm="${esc(q.player.name)}">` : "";
+  return `<div class="card review-item">
+    ${photo}
+    <div class="ri-body">
+      <div class="ri-q">${esc(q.prompt)}</div>
+      <div class="ri-ans">
+        <span class="ng">✕ あなた: ${esc(w.chosen)}</span>
+        <span class="ok">✓ 正解: ${esc(w.answer)}</span>
+      </div>
+      <div class="ri-ex">${esc(q.explain)}</div>
+    </div>
+  </div>`;
 }
 
 // ================= 選手図鑑 (単語帳カードUI + 検索/地区/級班フィルタを統合) =================

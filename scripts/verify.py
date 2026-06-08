@@ -46,9 +46,8 @@ STD_REGION = {
 print("=" * 60)
 print("PLAYERS")
 print("=" * 60)
-# 件数・重複
-if len(players) != 107:
-    warn(f"選手数が107でない: {len(players)}")
+# 件数・重複 (A級・S級2班除外後の想定: 100名前後)
+print(f"  選手数: {len(players)}")
 if len(pid_set) != len(players):
     err(f"選手IDに重複: {len(players)-len(pid_set)}件")
 

@@ -561,39 +561,6 @@
     }
   },
   {
-    "id": "013760",
-    "name": "矢口 啓一郎",
-    "name_kana": "ヤグチ ケイイチロウ",
-    "birthdate": "1980-05-17",
-    "age": 46,
-    "gender": "男",
-    "prefecture": "群馬県",
-    "region": "関東",
-    "period": 86,
-    "class": "A級1班",
-    "class_next": "A級2班",
-    "footwork": "両",
-    "footwork_label": "両",
-    "home_bank": "前橋",
-    "mentor": "新谷 隆広",
-    "nickname": "ヤグ",
-    "height_cm": 170.6,
-    "weight_kg": 80.0,
-    "points": 85.62,
-    "stats": {
-      "win_rate": "0.0%",
-      "place2_rate": "26.0%",
-      "place3_rate": "43.4%",
-      "race_score": 85.86
-    },
-    "photo": "photos/013760.jpg",
-    "photo_source": "https://keirin.jp/pc/dfw/portal/picture/sen01/sen0137/013760_00.jpg",
-    "links": {
-      "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=013760",
-      "winticket": "https://www.winticket.jp/keirin/cyclist/013760"
-    }
-  },
-  {
     "id": "014055",
     "name": "芦澤 大輔",
     "name_kana": "アシザワ ダイスケ",
@@ -855,39 +822,6 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014860",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014860"
-    }
-  },
-  {
-    "id": "014861",
-    "name": "金子 幸央",
-    "name_kana": "カネコ ユキヒロ",
-    "birthdate": "1993-01-25",
-    "age": 33,
-    "gender": "男",
-    "prefecture": "栃木県",
-    "region": "関東",
-    "period": 101,
-    "class": "S級2班",
-    "class_next": "S級1班",
-    "footwork": "両",
-    "footwork_label": "両",
-    "home_bank": "宇都宮",
-    "mentor": "日里 寿行",
-    "nickname": "ゆきお",
-    "height_cm": 173.0,
-    "weight_kg": 72.0,
-    "points": 111.0,
-    "stats": {
-      "win_rate": "28.0%",
-      "place2_rate": "64.0%",
-      "place3_rate": "76.0%",
-      "race_score": 111.36
-    },
-    "photo": "photos/014861.jpg",
-    "photo_source": "https://keirin.jp/pc/dfw/portal/picture/sen01/sen0148/014861_00.jpg",
-    "links": {
-      "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014861",
-      "winticket": "https://www.winticket.jp/keirin/cyclist/014861"
     }
   },
   {
@@ -2079,39 +2013,6 @@
     }
   },
   {
-    "id": "014097",
-    "name": "稲川 翔",
-    "name_kana": "イナカワ シヨウ",
-    "birthdate": "1985-02-20",
-    "age": 41,
-    "gender": "男",
-    "prefecture": "大阪府",
-    "region": "近畿",
-    "period": 90,
-    "class": "S級2班",
-    "class_next": "S級1班",
-    "footwork": "両",
-    "footwork_label": "両",
-    "home_bank": null,
-    "mentor": "北村 尚勝",
-    "nickname": "しょう・いなしょう",
-    "height_cm": 172.0,
-    "weight_kg": 80.0,
-    "points": 110.21,
-    "stats": {
-      "win_rate": "4.5%",
-      "place2_rate": "40.9%",
-      "place3_rate": "59.0%",
-      "race_score": 110.59
-    },
-    "photo": "photos/014097.jpg",
-    "photo_source": "https://keirin.jp/pc/dfw/portal/picture/sen01/sen0140/014097_00.jpg",
-    "links": {
-      "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014097",
-      "winticket": "https://www.winticket.jp/keirin/cyclist/014097"
-    }
-  },
-  {
     "id": "014252",
     "name": "三谷 将太",
     "name_kana": "ミタニ シヨウタ",
@@ -3231,39 +3132,6 @@
     "links": {
       "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=014564",
       "winticket": "https://www.winticket.jp/keirin/cyclist/014564"
-    }
-  },
-  {
-    "id": "015052",
-    "name": "渡邉 豪大",
-    "name_kana": "ワタナベ カツヒロ",
-    "birthdate": "1989-06-22",
-    "age": 36,
-    "gender": "男",
-    "prefecture": "福岡県",
-    "region": "九州",
-    "period": 107,
-    "class": "S級2班",
-    "class_next": "S級2班",
-    "footwork": "追",
-    "footwork_label": "追込",
-    "home_bank": "小倉",
-    "mentor": "栗田 雅也",
-    "nickname": null,
-    "height_cm": 171.0,
-    "weight_kg": 78.1,
-    "points": 107.17,
-    "stats": {
-      "win_rate": "19.0%",
-      "place2_rate": "33.3%",
-      "place3_rate": "47.6%",
-      "race_score": 106.28
-    },
-    "photo": "photos/015052.jpg",
-    "photo_source": "https://keirin.jp/pc/dfw/portal/picture/sen01/sen0150/015052_00.jpg",
-    "links": {
-      "keirin_jp": "https://keirin.jp/pc/racerprofile?snum=015052",
-      "winticket": "https://www.winticket.jp/keirin/cyclist/015052"
     }
   },
   {

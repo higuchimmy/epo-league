@@ -36,12 +36,21 @@ def zen2han(s: str) -> str:
     return s.translate(table)
 
 
+def excluded_class(raw_cls: str) -> bool:
+    """出題範囲外の級班(A級全般・S級2班)を除外対象とする。"""
+    c = zen2han(raw_cls or "")
+    return c.startswith("A級") or c == "S級2班"
+
+
 def main() -> None:
     MASTER.mkdir(parents=True, exist_ok=True)
     players_raw = load("players_keirin.json")
     figma = load("figma_extract.json")
     regions_map = load("figma_regions.json")  # {snum: region}
     photos = load("player_photos.json")  # {snum: keirin写真URL}
+
+    # A級・S級2班を除外(出題範囲外)
+    players_raw = [p for p in players_raw if not excluded_class(p.get("class"))]
 
     # --- 都道府県 -> 地区 (Figma地区マップから1:1で導出) ---
     pref2region = {}
